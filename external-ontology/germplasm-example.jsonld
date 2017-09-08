@@ -1,0 +1,50 @@
+{
+  "@context": "context.jsonld",
+  "metadata": {
+    "status": [],
+    "datafiles": [],
+    "pagination": {
+      "pageSize": 0,
+      "currentPage": 0,
+      "totalCount": 0,
+      "totalPages": 0
+    }
+  },
+  "result": {
+    "@type": "http://www.cropontology.org/rdf/CO_020:0000089",
+    "@id": "http://mybrapiserver.org/brapi/v1/germplasm/01BEL084609",
+    "germplasmDbId": "01BEL084609",
+    "defaultDisplayName": "Pahang",
+    "accessionNumber": "ITC0609",
+    "germplasmName": "Pahang",
+    "germplasmPUI": "http://www.crop-diversity.org/mgis/accession/01BEL084609",
+    "pedigree": "TOBA97/SW90.1057",
+    "seedSource": "ITC0609-2016-77",
+    "synonyms": [],
+    "commonCropName": "banana",
+    "instituteCode": "01BEL084",
+    "instituteName": "ITC",
+    "biologicalStatusOfAccessionCode": "http://www.cropontology.org/rdf/CO_020:0000037",
+    "countryOfOriginCode": "UNK",
+    "typeOfGermplasmStorageCode": 10,
+    "genus": "Musa",
+    "species": "acuminata",
+    "taxonIds": [{
+      "ncbiTaxon": "http://purl.obolibrary.org/obo/NCBITaxon_4641"
+    }, {
+      "ciradTaxon": "23-E"
+    }],
+    "speciesAuthority": "",
+    "subtaxa": "sp malaccensis var pahang",
+    "subtaxaAuthority": "",
+    "donors": [{
+      "donorAccessionNumber": "",
+      "donorInstituteCode": "",
+      "donorGermplasmPUI": ""
+    }],
+    "acquisitionDate": "19470131",
+    "latitude": "40.75",
+    "longitude": "73.98",
+    "image": "http://www.bananeramuchachitaus.com/images/slider/banana-3.jpg"
+  }
+}

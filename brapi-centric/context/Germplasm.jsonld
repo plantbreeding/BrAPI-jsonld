@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "brapi": "https://brapi.org/rdf/",
+
+    "Germplasm": {
+      "@id": "brapi:Germplasm"
+    },
+
+    "@vocab": "http://brapi.org/rdf/Germplasm#"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "@context": "germplasm-context.jsonld",
+  "@context": "context/brapi.jsonld",
   "metadata": {
     "status": [],
     "datafiles": [],
@@ -11,8 +11,9 @@
     }
   },
   "result": {
-    "@type": "http://www.cropontology.org/rdf/CO_020:0000089",
-    "@id": "http://mybrapiserver.org/brapi/v1/germplasm/01BEL084609",
+    "@context": "context/Germplasm.jsonld",
+    "@id": "http://mybrapiserver.com/brapi/v1/germplasm/01BEL084609",
+    "@type": "brapi:Germplasm",
     "germplasmDbId": "01BEL084609",
     "defaultDisplayName": "Pahang",
     "accessionNumber": "ITC0609",

@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "brapi": "https://brapi.org/rdf/",
+    "CO_020": "http://www.cropontology.org/rdf/CO_020:",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wikidata": "https://www.wikidata.org/wiki/",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [{
+      "@id": "brapi:Germplasm",
+      "@type": "CO_020:0000089"
+    },
+    {
+      "@id": "brapi:Germplasm#germplasmDbId",
+      "@type": ["CO_020:0000089", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#genus",
+      "@type": ["CO_020:000005", "wikidata:Q34740", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#acquisitionDate",
+      "@type": ["http://www.w3.org/2002/12/cal/ical#date", "xsd:date"]
+    },
+    {
+      "@id": "brapi:Germplasm#accessionNumber",
+      "@type": ["CO_020:0000024", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#biologicalStatusOfAccessionCode",
+      "@type": ["CO_020:0000020", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#collectingOrAcquisitionSourceCode",
+      "@type": ["CO_020:0000076", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#countryOfOriginCode",
+      "@type": ["CO_020:0000085", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#donorAccessionNumber",
+      "@type": ["CO_020:0000024", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#donorInstituteCode",
+      "@type": ["CO_020:0000023", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#donorInstituteName",
+      "@type": ["CO_020:0000104", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#donorGermplasmPUI",
+      "@type": ["CO_020:0000---", "xsd:anyUri"]
+    },
+    {
+      "@id": "brapi:Germplasm#instituteCode",
+      "@type": ["CO_020:0000084", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#species",
+      "@type": ["CO_020:0000006", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#speciesAuthority",
+      "@type": ["CO_020:0000007", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#subtaxa",
+      "@type": ["CO_020:0000008", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#subtaxaAuthority",
+      "@type": ["CO_020:0000009", "xsd:string"]
+    },
+    {
+      "@id": "brapi:Germplasm#typeOfGermplasmStorageCode",
+      "@type": ["CO_020:0000027", "xsd:integer"]
+    },
+    {
+      "@id": "brapi:Germplasm#latitude",
+      "@type": ["schema:latitude", "xsd:float"]
+    },
+    {
+      "@id": "brapi:Germplasm#longitude",
+      "@type": ["schema:longitude", "xsd:float"]
+    },
+    {
+      "@id": "brapi:Germplasm#image",
+      "@type": ["schema:image", "@id"]
+    },
+    {
+      "@id": "brapi:Germplasm#ncbiTaxon",
+      "@type": ["http://purl.obolibrary.org/obo/NCBITaxon"]
+    }
+  ]
+}
