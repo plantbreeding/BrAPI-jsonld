@@ -8,6 +8,7 @@
 
     "taxonIds": "https://en.wikipedia.org/wiki/Plant_taxonomy",
     "ncbiTaxon": {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon",
       "@type": "@id"
     },
     "acquisitionDate": {
