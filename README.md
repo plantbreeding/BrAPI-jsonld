@@ -24,6 +24,8 @@ Another approach for BrAPI JSON-LD is to develop the model based on other ontolo
 
 Under the `external-ontology` folder you can find the following:
 
-- `context.jsonld` => The JSON-LD context mapping BrAPI property to ontologies
+- `context` => JSON-LD contexts
+  - `brapi.jsonld` => Describing the base BrAPI model (result, metadata, etc.)
+  - `Germplasm.jsonld` => Describing the BrAPI germplasm model based on standard ontologies
 
 - `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fexternal-ontology%2Fgermplasm-example.jsonld))
