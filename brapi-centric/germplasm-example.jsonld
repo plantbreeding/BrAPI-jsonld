@@ -13,7 +13,7 @@
   "result": {
     "@context": "context/Germplasm.jsonld",
     "@id": "http://mybrapiserver.com/brapi/v1/germplasm/01BEL084609",
-    "@type": "brapi:Germplasm",
+    "@type": "Germplasm",
     "germplasmDbId": "01BEL084609",
     "defaultDisplayName": "Pahang",
     "accessionNumber": "ITC0609",

@@ -1,11 +1,93 @@
 {
   "@context": {
     "brapi": "https://brapi.org/rdf/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
 
     "Germplasm": {
       "@id": "brapi:Germplasm"
     },
 
-    "@vocab": "http://brapi.org/rdf/Germplasm#"
-  }
-}
+    "germplasmDbId": {
+      "@id": "brapi:Germplasm#germplasmDbId",
+      "@type": "xsd:string"
+    },
+    "genus": {
+      "@id": "brapi:Germplasm#genus",
+      "@type": "xsd:string"
+    },
+    "acquisitionDate": {
+      "@id": "brapi:Germplasm#acquisitionDate",
+      "@type": "xsd:date"
+    },
+    "accessionNumber": {
+      "@id": "brapi:Germplasm#accessionNumber",
+      "@type": "xsd:string"
+    },
+    "biologicalStatusOfAccessionCode": {
+      "@id": "brapi:Germplasm#biologicalStatusOfAccessionCode",
+      "@type": "xsd:string"
+    },
+    "collectingOrAcquisitionSourceCode": {
+      "@id": "brapi:Germplasm#collectingOrAcquisitionSourceCode",
+      "@type": "xsd:string"
+    },
+    "countryOfOriginCode": {
+      "@id": "brapi:Germplasm#countryOfOriginCode",
+      "@type": "xsd:string"
+    },
+    "donorAccessionNumber": {
+      "@id": "brapi:Germplasm#donorAccessionNumber",
+      "@type": "xsd:string"
+    },
+    "donorInstituteCode": {
+      "@id": "brapi:Germplasm#donorInstituteCode",
+      "@type": "xsd:string"
+    },
+    "donorInstituteName": {
+      "@id": "brapi:Germplasm#donorInstituteName",
+      "@type": "xsd:string"
+    },
+    "donorGermplasmPUI": {
+      "@id": "brapi:Germplasm#donorGermplasmPUI",
+      "@type": "xsd:anyUri"
+    },
+    "instituteCode": {
+      "@id": "brapi:Germplasm#instituteCode",
+      "@type": "xsd:string"
+    },
+    "species": {
+      "@id": "brapi:Germplasm#species",
+      "@type": "xsd:string"
+    },
+    "speciesAuthority": {
+      "@id": "brapi:Germplasm#speciesAuthority",
+      "@type": "xsd:string"
+    },
+    "subtaxa": {
+      "@id": "brapi:Germplasm#subtaxa",
+      "@type": "xsd:string"
+    },
+    "subtaxaAuthority": {
+      "@id": "brapi:Germplasm#subtaxaAuthority",
+      "@type": "xsd:string"
+    },
+    "typeOfGermplasmStorageCode": {
+      "@id": "brapi:Germplasm#typeOfGermplasmStorageCode",
+      "@type": "xsd:integer"
+    },
+    "latitude": {
+      "@id": "brapi:Germplasm#latitude",
+      "@type": "xsd:float"
+    },
+    "longitude": {
+      "@id": "brapi:Germplasm#longitude",
+      "@type": "xsd:float"
+    },
+    "image": {
+      "@id": "brapi:Germplasm#image",
+      "@type": "xsd:anyURI"
+    },
+    "ncbiTaxon": {
+      "@id": "brapi:Germplasm#ncbiTaxon",
+      "@type": "xsd:string"
+    }
