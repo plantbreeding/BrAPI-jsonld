@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "brapi": "https://brapi.org/rdf/",
+
+    "Ontology": "brapi:Ontology#",
+    "ontologyDbId": {
+      "@id": "Ontology",
+      "@type": "@id"
+    },
+
+    "Variable": "brapi:Variable#",
+    "observationVariableDbId": "@id",
+
+    "trait": "brapi:Trait#",
+    "traitDbId": "@id",
+
+    "method": "brapi:Method#",
+    "methodDbId": "@id",
+
+    "scale": "brapi:Scale#",
+    "scaleDbId": "@id"
+  }
+}
