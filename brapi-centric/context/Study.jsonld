@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "brapi": "https://brapi.org/rdf/",
+
+    "Study": "brapi:Study#",
+
+    "studyPUI": "@id",
+    "studyDbId": "Study:studyDbId",
+    "studyName": "Study:studyName",
+    "studyDescription": "Study:studyDescription",
+    "studyType": "Study:studyType",
+    "seasons": "Study:season",
+    "license": "Study:license",
+    "startDate": {
+      "@id": "Study:startDate",
+      "@type": "xsd:date"
+    },
+    "endDate": {
+      "@id": "Study:endDate",
+      "@type": "xsd:date"
+    },
+    "active": {
+      "@id": "Study:active",
+      "@type": "xsd:boolean"
+    },
+
+    "trialPUI": {
+      "@id": "Study:trial",
+      "@type": "@id"
+    },
+
+    "locationPUI": {
+      "@id": "Study:location",
+      "@type": "@id"
+    },
+
+    "programPUI": {
+      "@id": "Study:program",
+      "@type": "@id"
+    }
+  }
+}

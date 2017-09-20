@@ -2,91 +2,49 @@
   "@context": {
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
-    "Germplasm": "https://brapi.org/rdf/Germplasm#",
 
-    "germplasmDbId": {
-      "@id": "Germplasm:germplasmDbId",
-      "@type": "xsd:string"
-    },
-    "genus": {
-      "@id": "Germplasm:genus",
-      "@type": "xsd:string"
+    "Germplasm": "brapi:Germplasm#",
+    "Donor": "Germplasm:Donor#",
+    "Taxon": "Germplasm:Taxon#",
+
+    "germplasmPUI": "@id",
+    "germplasmDbId": "Germplasm:germplasmDbId",
+    "accessionNumber": "Germplasm:accessionNumber",
+    "genus": "Germplasm:genus",
+    "species": "Germplasm:species",
+    "speciesAuthority": "Germplasm:speciesAuthority",
+    "subtaxa": "Germplasm:subtaxa",
+    "subtaxaAuthority": "Germplasm:subtaxaAuthority",
+    "countryOfOriginCode": "Germplasm:countryOfOriginCode",
+    "instituteCode": "Germplasm:instituteCode",
+    "biologicalStatusOfAccessionCode": "Germplasm:biologicalStatusOfAccessionCode",
+    "collectingOrAcquisitionSourceCode": "Germplasm:collectingOrAcquisitionSourceCode",
+    "typeOfGermplasmStorageCode": {
+      "@id": "Germplasm:typeOfGermplasmStorageCode",
+      "@type": "xsd:integer"
     },
     "acquisitionDate": {
       "@id": "Germplasm:acquisitionDate",
       "@type": "xsd:date"
     },
-    "accessionNumber": {
-      "@id": "Germplasm:accessionNumber",
-      "@type": "xsd:string"
+    "donors": {
+      "@id": "Germplasm:donors",
+      "@type": "Donor"
     },
-    "biologicalStatusOfAccessionCode": {
-      "@id": "Germplasm:biologicalStatusOfAccessionCode",
-      "@type": "xsd:string"
+    "taxonIds": {
+      "@id": "Germplasm:taxonIds",
+      "@type": "Taxon"
     },
-    "collectingOrAcquisitionSourceCode": {
-      "@id": "Germplasm:collectingOrAcquisitionSourceCode",
-      "@type": "xsd:string"
-    },
-    "countryOfOriginCode": {
-      "@id": "Germplasm:countryOfOriginCode",
-      "@type": "xsd:string"
-    },
-    "donorAccessionNumber": {
-      "@id": "Germplasm:donorAccessionNumber",
-      "@type": "xsd:string"
-    },
-    "donorInstituteCode": {
-      "@id": "Germplasm:donorInstituteCode",
-      "@type": "xsd:string"
-    },
-    "donorInstituteName": {
-      "@id": "Germplasm:donorInstituteName",
-      "@type": "xsd:string"
-    },
-    "donorGermplasmPUI": {
-      "@id": "Germplasm:donorGermplasmPUI",
-      "@type": "xsd:anyUri"
-    },
-    "instituteCode": {
-      "@id": "Germplasm:instituteCode",
-      "@type": "xsd:string"
-    },
-    "species": {
-      "@id": "Germplasm:species",
-      "@type": "xsd:string"
-    },
-    "speciesAuthority": {
-      "@id": "Germplasm:speciesAuthority",
-      "@type": "xsd:string"
-    },
-    "subtaxa": {
-      "@id": "Germplasm:subtaxa",
-      "@type": "xsd:string"
-    },
-    "subtaxaAuthority": {
-      "@id": "Germplasm:subtaxaAuthority",
-      "@type": "xsd:string"
-    },
-    "typeOfGermplasmStorageCode": {
-      "@id": "Germplasm:typeOfGermplasmStorageCode",
-      "@type": "xsd:integer"
-    },
-    "latitude": {
-      "@id": "Germplasm:latitude",
-      "@type": "xsd:float"
-    },
-    "longitude": {
-      "@id": "Germplasm:longitude",
-      "@type": "xsd:float"
-    },
-    "image": {
-      "@id": "Germplasm:image",
-      "@type": "xsd:anyURI"
-    },
+
+    "donorAccessionNumber": "Donor:donorAccessionNumber",
+    "donorInstituteCode": "Donor:donorInstituteCode",
+    "donorInstituteName": "Donor:donorInstituteName",
+    "donorGermplasmPUI": "Donor:donorGermplasmPUI",
+
     "ncbiTaxon": {
-      "@id": "Germplasm:ncbiTaxon",
-      "@type": "xsd:string"
+      "@id": "Taxon:ncbiTaxon",
+      "@type": "@id"
     }
+
   }
 }

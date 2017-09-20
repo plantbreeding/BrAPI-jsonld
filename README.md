@@ -11,8 +11,10 @@ This JSON-LD BrAPI model can then be mapped to standard ontologies via `@type` (
 Under the `brapi-centric` folder you can find the following:
 
 - `context` => JSON-LD contexts
-  - `brapi.jsonld` => Describing the base BrAPI model (result, metadata, etc.)
-  - `Germplasm.jsonld` => Describing the BrAPI germplasm model
+  - `brapi.jsonld` => Describing the base BrAPI context (result, metadata, etc.)
+  - `*.jsonld` => Describing the BrAPI context for each entity (Germplasm, Study, etc.)
+
+- `brapi-model.jsonld` => BrAPI RDFs model (classes & properties) ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fbrapi-model.jsonld))
 
 - `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fgermplasm-example.jsonld))
 

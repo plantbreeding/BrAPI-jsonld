@@ -1,5 +1,5 @@
 {
-  "@context": "context/brapi.jsonld",
+  "@context": ["context/brapi.jsonld", "context/Germplasm.jsonld"],
   "metadata": {
     "status": [],
     "datafiles": [],
@@ -11,8 +11,6 @@
     }
   },
   "result": {
-    "@context": "context/Germplasm.jsonld",
-    "@id": "http://mybrapiserver.com/brapi/v1/germplasm/01BEL084609",
     "@type": "Germplasm",
     "germplasmDbId": "01BEL084609",
     "defaultDisplayName": "Pahang",
@@ -39,13 +37,9 @@
     "subtaxa": "sp malaccensis var pahang",
     "subtaxaAuthority": "",
     "donors": [{
-      "donorAccessionNumber": "",
-      "donorInstituteCode": "",
-      "donorGermplasmPUI": ""
-    }],
-    "acquisitionDate": "19470131",
-    "latitude": "40.75",
-    "longitude": "73.98",
-    "image": "http://www.bananeramuchachitaus.com/images/slider/banana-3.jpg"
+      "donorAccessionNumber": "01SDF1368717",
+      "donorInstituteCode": "01SDF136",
+      "donorGermplasmPUI": "http://www.crop-diversity.org/mgis/accession/01SDF1368717"
+    }]
   }
 }

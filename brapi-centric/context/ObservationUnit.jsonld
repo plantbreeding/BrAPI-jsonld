@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "brapi": "https://brapi.org/rdf/",
+
+    "ObservationUnit": "brapi:ObservationUnit#",
+    "Treatment": "brapi:Treatment#",
+    "Observation": "brapi:Observation#",
+
+    "observationUnitPUI": "@id",
+    "observationUnitDbId": "ObservationUnit:observationUnitDbId",
+    "observationUnitName": "ObservationUnit:observationUnitName",
+    "observationLevel": "ObservationUnit:observationLevel",
+    "plotNumber": "ObservationUnit:plotNumber",
+    "plantNumber": "ObservationUnit:plantNumber",
+    "blockNumber": "ObservationUnit:blockNumber",
+    "replicate": "ObservationUnit:replicate",
+    "entryType": "ObservationUnit:entryType",
+    "entryNumber": "ObservationUnit:entryNumber",
+    "X": "ObservationUnit:X",
+    "Y": "ObservationUnit:Y",
+
+    "observationUnitXref": "ObservationUnit:XRef",
+
+    "germplasmPUI": {
+      "@id": "ObservationUnit:germplasm",
+      "@type": "@id"
+    },
+
+    "studyPUI": {
+      "@id": "ObservationUnit:study",
+      "@type": "@id"
+    },
+
+    "treatments": "Observation:treatments",
+    "factor": "Treatment:factor",
+    "modality": "Treatment:modality",
+
+    "observations": "ObservationUnit:observations",
+    "observationPUI": "@id",
+    "observationDbId": "Observation:observationDbId",
+    "season": "Observation:season",
+    "collector": "Observation:collector",
+    "value": "Observation:value",
+    "observationTimeStamp": {
+      "@id": "Observation:observationTimeStamp",
+      "@type": "xsd:dateTime"
+    },
+
+    "observationVariablePUI": {
+      "@id": "Observation:variable",
+      "@type": "@id"
+    }
+
+  }
+}

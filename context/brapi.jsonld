@@ -1,9 +1,0 @@
-{
-  "@context": {
-    "brapi": "https://brapi.org/rdf/",
-
-    "metadata": "brapi:metadata",
-    "result": "brapi:result",
-    "data": "brapi:result/data"
-  }
-}

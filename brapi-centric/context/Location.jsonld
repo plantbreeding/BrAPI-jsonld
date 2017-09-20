@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "brapi": "https://brapi.org/rdf/",
+
+    "Location": "brapi:Location#",
+
+    "locationPUI": "@id",
+    "locationDbId": "Location:locationDbId",
+
+    "name": "Location:name",
+    "abreviation": "Location:abreviation",
+    "locationType": "Location:locationType",
+
+    "countryCode": "Location:countryCode",
+    "countryName": "Location:countryName",
+
+    "instituteName": "Location:instituteName",
+    "instituteAdress": "Location:instituteAdress",
+
+    "latitude": {
+      "@id": "Location:latitude",
+      "@type": "xsd:decimal"
+    },
+    "longitude": {
+      "@id": "Location:longitude",
+      "@type": "xsd:decimal"
+    },
+    "altitude": {
+      "@id": "Location:altitude",
+      "@type": "xsd:decimal"
+    }
+  }
+}
