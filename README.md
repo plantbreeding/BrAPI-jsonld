@@ -14,11 +14,11 @@ Under the `brapi-centric` folder you can find the following:
   - `brapi.jsonld` => Describing the base BrAPI context (result, metadata, etc.)
   - `*.jsonld` => Describing the BrAPI context for each entity (Germplasm, Study, etc.)
 
-- `brapi-model.jsonld` => BrAPI RDFs model (classes & properties) ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fbrapi-model.jsonld))
+- `brapi-model.jsonld` => BrAPI RDFs model (classes & properties) ([See in JSON-LD playground](https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fbrapi-model.jsonld))
 
-- `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fgermplasm-example.jsonld))
+- `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fgermplasm-example.jsonld))
 
-- `ontology-mapping-graph.jsonld` => Example mapping of germplasm model to other ontologies (xsd, wikidata, schema.org) using `rdf:type` ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fontology-mapping-graph.jsonld))
+- `ontology-mapping-graph.jsonld` => Example mapping of germplasm model to other ontologies (xsd, wikidata, schema.org) using `rdf:type` ([See in JSON-LD playground](https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fbrapi-centric%2Fontology-mapping-graph.jsonld))
 
 ## Approach 2: Based on external ontologies
 
@@ -30,4 +30,7 @@ Under the `external-ontology` folder you can find the following:
   - `brapi.jsonld` => Describing the base BrAPI model (result, metadata, etc.)
   - `Germplasm.jsonld` => Describing the BrAPI germplasm model based on standard ontologies
 
-- `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fexternal-ontology%2Fgermplasm-example.jsonld))
+- `germplasm-example.jsonld` => Example of BrAPI data extended with JSON-LD ([See in JSON-LD playground](https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fexternal-ontology%2Fgermplasm-example.jsonld))
+
+- `cropontology-variable-example.jsonld` => Example of BrAPI observation variable data extended with CropOntology compatible RDF schema ([See in JSON-LD playground](https://json-ld.org/playground/#json-ld=https%3A%2F%2Fraw.githubusercontent.com%2Fplantbreeding%2FBrAPI-jsonld%2Fmaster%2Fexternal-ontology%2Fcropontology-variable-example.jsonld))
+

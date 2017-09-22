@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "CO": "http://www.cropontology.org/rdf/",
+
+    "CO_357": "http://www.cropontology.org/rdf/CO_357:",
+
+    "brapi": "https://brapi.org/rdf/",
+    "result": "brapi:result"
+  },
+  "metadata": {},
+  "result": {
+    "@context": {
+      "observationVariableDbId": "@id",
+      "name": "skos:prefLabel",
+      "synonyms": "skos:altLabel",
+      "description": "skos:definition",
+      "mainAbbreviation": "CO:acronym",
+      "@language": "EN",
+
+      "trait": "CO:variable_of",
+      "traitDbId": "@id",
+
+      "method": "CO:variable_of",
+      "methodDbId": "@id",
+
+      "scale": "CO:variable_of",
+      "scaleDbId": "@id"
+    },
+    "rdfs:subClassOf": {
+      "@type": "owl:Restriction",
+      "owl:onProperty": {"@id": "CO:variable_of"},
+      "owl:someValuesFrom": {"@id": "CO_357:1000003"}
+    },
+    "rdfs:subClassOf": {
+      "@type": "owl:Restriction",
+      "owl:onProperty": {"@id": "CO:variable_of"},
+      "owl:someValuesFrom": {"@id": "CO_357:2000006"}
+    },
+    "rdfs:subClassOf": {
+      "@type": "owl:Restriction",
+      "owl:onProperty": {"@id": "CO:variable_of"},
+      "owl:someValuesFrom": {"@id": "CO_357:3000006"}
+    },
+    "skos:broaderTransitive": {"@id": "CO:Variable"},
+    "rdfs:subClassOf": {"@id": "CO:Variable"},
+    "@type": ["skos:Concept", "owl:Class"],
+
+    "observationVariableDbId": "CO_357:0000004",
+    "name": "ANG_BL",
+    "ontologyDbId": "CO_357",
+    "ontologyName": "Woody Plant Ontology",
+    "synonyms": [
+      "Branch angle broadleaves",
+      "ANG_B[Adonis]"
+    ],
+    "contextOfUse": [
+      "Trial evaluation"
+    ],
+    "growthStage": null,
+    "status": "Standard for INRA",
+    "xref": null,
+    "institution": "INRA",
+    "scientist": "Célia Michotey",
+    "date": "13/03/2017",
+    "language": "EN",
+    "crop": "Woody Plant",
+    "trait": {
+      "@context": { "traitDbId": "@id" },
+      "@type": ["skos:Concept", "owl:Class"],
+      "skos:broaderTransitive": {"@id": "CO_357:Morphological"},
+      "rdfs:subClassOf": {"@id": "CO_357:Morphological"},
+
+      "traitDbId": "CO_357:1000003",
+      "name": "Branch angle",
+      "description": "Assessment of the branches angle",
+      "synonyms": null,
+      "mainAbbreviation": "ANG",
+      "alternativeAbbreviations": [
+        "ANGLE"
+      ],
+      "entity": "branch",
+      "attribute": "angle",
+      "status": "Standard for INRA",
+      "xref": null,
+      "class": "Morphological"
+    },
+    "method": {
+      "@context": { "methodDbId": "@id" },
+      "@type": ["skos:Concept", "owl:Class"],
+      "skos:broaderTransitive": {"@id": "CO_357:Estimation"},
+      "rdfs:subClassOf": {"@id": "CO_357:Estimation"},
+      "CO:method_of": "CO:1000003",
+      "rdfs:subClassOf": {
+        "@type": "owl:Restriction",
+        "owl:onProperty": {"@id": "CO:method_of"},
+        "owl:someValuesFrom": {"@id": "CO_357:1000003"}
+      },
+
+      "methodDbId": "CO_357:2000006",
+      "name": "Branches angle broadleaves protocol",
+      "description": "Visual assessment with a reference scoring scale for broadleaves",
+      "formula": null,
+      "reference": "T4F European reference protocol: T4F_D21_submitted.pdf pages 42-43",
+      "class ": "Estimation"
+    },
+    "scale": {
+      "@context": { "scaleDbId": "@id" },
+      "@type": ["skos:Concept", "owl:Class"],
+      "skos:broaderTransitive": {"@id": "CO_357:Nominal"},
+      "rdfs:subClassOf": {"@id": "CO_357:Nominal"},
+      "CO:scale_of": "CO:1000003",
+      "rdfs:subClassOf": {
+        "@type": "owl:Restriction",
+        "owl:onProperty": {"@id": "CO:scale_of"},
+        "owl:someValuesFrom": {"@id": "CO_357:1000003"}
+      },
+
+      "scaleDbId": "CO_357:3000006",
+      "name": "Branch angle broadleaves scoring scale",
+      "dataType": "Nominal",
+      "decimalPlaces": "0",
+      "xref": null,
+      "validValues": {
+        "min": 1,
+        "max": 3,
+        "categories": [
+          "1 = below 30° (steep)",
+          "2 = between 30° and 60°",
+          "3 = between 60° and 90° (plain)"
+        ]
+      }
+    }
+  }
+}
+
