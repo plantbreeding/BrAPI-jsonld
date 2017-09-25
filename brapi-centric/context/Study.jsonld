@@ -4,6 +4,8 @@
     "brapi": "https://brapi.org/rdf/",
 
     "Study": "brapi:Study#",
+    "Trial": "brapi:Trial#",
+    "Location": "brapi:Location#",
 
     "studyPUI": "@id",
     "studyDbId": "Study:studyDbId",
@@ -25,18 +27,15 @@
       "@type": "xsd:boolean"
     },
 
+    "trial": "Trial:trial",
     "trialPUI": {
       "@id": "Study:trial",
       "@type": "@id"
     },
 
+    "location": "Study:location",
     "locationPUI": {
       "@id": "Study:location",
-      "@type": "@id"
-    },
-
-    "programPUI": {
-      "@id": "Study:program",
       "@type": "@id"
     }
   }

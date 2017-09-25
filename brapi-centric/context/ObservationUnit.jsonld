@@ -3,9 +3,13 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
+    "Germplasm": "brapi:Germplasm#",
+    "Study": "brapi:Study#",
+
     "ObservationUnit": "brapi:ObservationUnit#",
     "Treatment": "brapi:Treatment#",
     "Observation": "brapi:Observation#",
+    "ObservationVariable": "brapi:ObservationVariable#",
 
     "observationUnitPUI": "@id",
     "observationUnitDbId": "ObservationUnit:observationUnitDbId",
@@ -22,11 +26,13 @@
 
     "observationUnitXref": "ObservationUnit:XRef",
 
+    "germplasm": "ObservationUnit:germplasm",
     "germplasmPUI": {
       "@id": "ObservationUnit:germplasm",
       "@type": "@id"
     },
 
+    "study": "ObservationUnit:study",
     "studyPUI": {
       "@id": "ObservationUnit:study",
       "@type": "@id"
@@ -47,6 +53,7 @@
       "@type": "xsd:dateTime"
     },
 
+    "observationVariable": "Observation:variable",
     "observationVariablePUI": {
       "@id": "Observation:variable",
       "@type": "@id"
