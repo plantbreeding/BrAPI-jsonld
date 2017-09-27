@@ -5,7 +5,6 @@
 
     "Germplasm": "brapi:Germplasm#",
     "Donor": "Germplasm:Donor#",
-    "Taxon": "Germplasm:Taxon#",
 
     "germplasmPUI": "@id",
     "germplasmDbId": "Germplasm:germplasmDbId",
@@ -27,22 +26,22 @@
       "@id": "Germplasm:acquisitionDate",
       "@type": "xsd:date"
     },
+
     "donors": {
       "@id": "Germplasm:donors",
       "@type": "Donor"
     },
-    "taxonIds": {
-      "@id": "Germplasm:taxonIds",
-      "@type": "Taxon"
-    },
-
     "donorAccessionNumber": "Donor:donorAccessionNumber",
     "donorInstituteCode": "Donor:donorInstituteCode",
     "donorInstituteName": "Donor:donorInstituteName",
     "donorGermplasmPUI": "Donor:donorGermplasmPUI",
 
+    "taxonIds": {
+      "@id": "Germplasm:taxons",
+      "@type": "@id"
+    },
     "ncbiTaxon": {
-      "@id": "Taxon:ncbiTaxon",
+      "@id": "Germplasm:taxons",
       "@type": "@id"
     }
 

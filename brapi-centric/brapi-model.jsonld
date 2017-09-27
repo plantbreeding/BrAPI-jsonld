@@ -2,11 +2,12 @@
   "@context": {
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "owl": "http://www.w3.org/2002/07/owl#",
     "brapi": "https://brapi.org/rdf/",
 
     "Germplasm": "brapi:Germplasm#",
     "Donor": "Germplasm:Donor#",
-    "Taxon": "Germplasm:Taxon#",
+    "Attribute": "Germplasm:Attribute#",
 
     "ObservationUnit": "brapi:ObservationUnit#",
     "Observation": "brapi:Observation#",
@@ -50,7 +51,7 @@
         "range": "Donor:"
       },
       {
-        "@id": "Germplasm:taxonIds",
+        "@id": "Germplasm:taxons",
         "range": "Taxon:"
       }
     ]
@@ -64,10 +65,14 @@
       "Donor:donorGermplasmPUI"
     ]
   }, {
-    "@id": "Taxon:",
+    "@id": "Attribute:",
     "@type": "rdfs:Class",
     "properties": [
-      "Taxon:ncbiTaxon"
+      "Attribute:attributeDbId",
+      "Attribute:attributeName",
+      "Attribute:attributeCode",
+      "Attribute:value",
+      "Attribute:determinedDate"
     ]
   }, {
     "@id": "ObservationUnit:",

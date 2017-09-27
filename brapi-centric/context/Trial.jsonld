@@ -4,6 +4,7 @@
     "brapi": "https://brapi.org/rdf/",
 
     "Trial": "brapi:Trial#",
+    "Program": "brapi:Program#",
 
     "trialPUI": "@id",
     "trialDbId": "Trial:trialDbId",
@@ -21,6 +22,7 @@
       "@type": "xsd:boolean"
     },
 
+    "program": "Trial:program",
     "programPUI": {
       "@id": "Trial:program",
       "@type": "@id"
