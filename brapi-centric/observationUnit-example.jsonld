@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/plantbreeding/BrAPI-jsonld/master/brapi-centric/context/brapi.jsonld",
+    "https://raw.githubusercontent.com/plantbreeding/BrAPI-jsonld/master/brapi-centric/context/ObservationUnit.jsonld"
+  ],
+  "metadata": {},
+  "result": {
+    "data": [
+      {
+        "observationUnitDbId": "2804198",
+        "observationUnitName": "2",
+        "observationLevel": "REPLICATION",
+        "observationLevels": "REPLICATION:2",
+        "plotNumber": null,
+        "plantNumber": null,
+        "blockNumber": null,
+        "replicate": null,
+        "entryType": null,
+        "entryNumber": null,
+        "observationUnitXref": [{
+          "source": "gnpis.lot",
+          "id": "DI04017"
+        }],
+        "germplasmDbId": "doi:10.15454/1.4921786517311074E12",
+        "germplasmName": "DI04017",
+        "studyDbId": "BTH_Clermont-Ferrand_2005_SetA2",
+        "studyName": "BTH_Clermont-Ferrand_2005_SetA2",
+        "studyLocationDbId": "1994",
+        "studyLocation": "Clermont-Ferrand",
+        "programDbId": "INRA_Wheat_Breeding_Network",
+        "programName": "INRA Wheat Breeding Network",
+        "treatments": [{
+          "factor": "itk",
+          "modality": "treated"
+        }],
+        "observations": [{
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804198/observation/3414325",
+            "observationDbId": "3414325",
+            "observationVariableDbId": "SCNO:00000002",
+            "observationVariableName": "rdt",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "73,1",
+            "@type": "Observation"
+          },
+          {
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804198/observation/3414325",
+            "observationDbId": "3414325",
+            "observationVariableDbId": "SCNO:00000002",
+            "observationVariableName": "rdt",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "73,1",
+            "@type": "Observation"
+          },
+          {
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804198/observation/3414326",
+            "observationDbId": "3414326",
+            "observationVariableDbId": "SCNO:00000005",
+            "observationVariableName": "prot",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "8,65",
+            "@type": "Observation"
+          },
+          {
+            "observationDbId": "3414326",
+            "observationVariableDbId": "SCNO:00000005",
+            "observationVariableName": "prot",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "8,65",
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804198/observation/3414326",
+            "@type": "Observation"
+          }
+        ],
+        "url": null,
+        "source": "GnpIS",
+        "observationUnitPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804198",
+        "@type": "ObservationUnit",
+        "X": null,
+        "Y": null
+      },
+      {
+        "observationUnitDbId": "2804250",
+        "observationUnitName": "2",
+        "observationLevel": "REPLICATION",
+        "observationLevels": "REPLICATION:2",
+        "plotNumber": null,
+        "plantNumber": null,
+        "blockNumber": null,
+        "replicate": null,
+        "entryType": null,
+        "entryNumber": null,
+        "observationUnitXref": [{
+          "source": "gnpis.lot",
+          "id": "CF03341"
+        }],
+        "germplasmDbId": "doi:10.15454/1.4921786316878179E12",
+        "germplasmName": "CF03341",
+        "studyDbId": "BTH_Clermont-Ferrand_2005_SetA2",
+        "studyName": "BTH_Clermont-Ferrand_2005_SetA2",
+        "studyLocationDbId": "1994",
+        "studyLocation": "Clermont-Ferrand",
+        "programDbId": "INRA_Wheat_Breeding_Network",
+        "programName": "INRA Wheat Breeding Network",
+        "treatments": [{
+          "factor": "itk",
+          "modality": "treated"
+        }],
+        "observations": [{
+            "observationDbId": "3414429",
+            "observationVariableDbId": "SCNO:00000002",
+            "observationVariableName": "rdt",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "84,8",
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804250/observation/3414429",
+            "@type": "Observation"
+          },
+          {
+            "observationDbId": "3414429",
+            "observationVariableDbId": "SCNO:00000002",
+            "observationVariableName": "rdt",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "84,8",
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804250/observation/3414429",
+            "@type": "Observation"
+          },
+          {
+            "observationDbId": "3414430",
+            "observationVariableDbId": "SCNO:00000005",
+            "observationVariableName": "prot",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "8,47",
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804250/observation/3414430",
+            "@type": "Observation"
+          },
+          {
+            "observationDbId": "3414430",
+            "observationVariableDbId": "SCNO:00000005",
+            "observationVariableName": "prot",
+            "observationTimeStamp": null,
+            "season": "2005",
+            "collector": null,
+            "value": "8,47",
+            "observationPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804250/observation/3414430",
+            "@type": "Observation"
+          }
+        ],
+        "url": null,
+        "source": "GnpIS",
+        "observationUnitPUI": "https://urgi.versailles.inra.fr/rdf/study/BTH_Clermont-Ferrand_2005_SetA2/observationUnit/2804250",
+        "@type": "ObservationUnit",
+        "X": null,
+        "Y": null
+      }
+    ]
+  }
+}
