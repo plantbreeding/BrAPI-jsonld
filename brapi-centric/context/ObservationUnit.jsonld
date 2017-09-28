@@ -25,7 +25,9 @@
     "X": "brapi:hasX",
     "Y": "brapi:hasY",
 
-    "observationUnitXref": "ObservationUnit:#XRef",
+    "observationUnitXref": "brapi:XRef",
+    "id": "brapi:hasDatabaseIdentifier",
+    "source": "brapi:hasSource",
 
     "germplasmPUI": {
       "@id": "brapi:hasGermplasm",
@@ -41,7 +43,7 @@
     "factor": "brapi:hasFactor",
     "modality": "brapi:hasModality",
 
-    "observations": "brapi:hasObservations",
+    "observations": "brapi:hasObservation",
     "observationPUI": "@id",
     "observationDbId": "brapi:hasDatabaseIdentifier",
     "season": "brapi:hasSeason",
