@@ -3,32 +3,22 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Trial": "brapi:Trial#",
-    "Program": "brapi:Program#",
+    "Trial": "brapi:Trial",
+    "Program": "brapi:Program",
 
     "trialPUI": "@id",
-    "trialDbId": "Trial:trialDbId",
-    "trialName": "Trial:trialName",
-    "startDate": {
-      "@id": "Trial:startDate",
-      "@type": "xsd:date"
-    },
-    "endDate": {
-      "@id": "Trial:endDate",
-      "@type": "xsd:date"
-    },
-    "active": {
-      "@id": "Trial:active",
-      "@type": "xsd:boolean"
-    },
+    "trialDbId": "brapi:hasDatabaseIdentifier",
+    "trialName": "brapi:hasName",
+    "startDate": "brapi:hasStartDate",
+    "endDate": "brapi:hasEndDate",
+    "active": "brapi:hasActive",
 
-    "program": "Trial:program",
     "programPUI": {
-      "@id": "Trial:program",
+      "@id": "brapi:hasProgram",
       "@type": "@id"
     },
 
-    "studies": "Trial:studies",
-    "studyPUI": "@id",
+    "studies": "brapi:hasStudy",
+    "studyPUI": "@id"
   }
 }

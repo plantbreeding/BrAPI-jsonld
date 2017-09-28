@@ -3,39 +3,28 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Study": "brapi:Study#",
-    "Trial": "brapi:Trial#",
-    "Location": "brapi:Location#",
+    "Study": "brapi:Study",
+    "Trial": "brapi:Trial",
+    "Location": "brapi:Location",
 
     "studyPUI": "@id",
-    "studyDbId": "Study:studyDbId",
-    "studyName": "Study:studyName",
-    "studyDescription": "Study:studyDescription",
-    "studyType": "Study:studyType",
-    "seasons": "Study:season",
-    "license": "Study:license",
-    "startDate": {
-      "@id": "Study:startDate",
-      "@type": "xsd:date"
-    },
-    "endDate": {
-      "@id": "Study:endDate",
-      "@type": "xsd:date"
-    },
-    "active": {
-      "@id": "Study:active",
-      "@type": "xsd:boolean"
-    },
+    "studyDbId": "brapi:hasDatabaseIdentifier",
+    "studyName": "brai:hasName",
+    "studyType": "brapi:hasType",
+    "seasons": "brapi:hasSeason",
+    "studyDescription": "brapi:hasDescription",
+    "license": "brapi:hasLicense",
+    "startDate": "brapi:hasStartDate",
+    "endDate": "brapi:hasEndDate",
+    "active": "brapi:isActive",
 
-    "trial": "Trial:trial",
     "trialPUI": {
-      "@id": "Study:trial",
+      "@id": "brapi:hasTrial",
       "@type": "@id"
     },
 
-    "location": "Study:location",
     "locationPUI": {
-      "@id": "Study:location",
+      "@id": "brapi:hasLocation",
       "@type": "@id"
     }
   }

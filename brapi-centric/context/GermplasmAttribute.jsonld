@@ -3,15 +3,15 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Germplasm": "brapi:Germplasm#",
-    "Attribute": "Germplasm:Attribute#",
+    "Germplasm": "brapi:Germplasm",
+    "Attribute": "brapi:Germplasm#Attribute",
 
-    "data": "Germplasm:attributes",
+    "data": "brapi:hasGermplasmAttribute",
 
-    "attributeDbId": "Attribute:attributeDbId",
-    "attributeName": "Attribute:attributeName",
-    "attributeCode": "Attribute:attributeCode",
-    "value": "Attribute:value",
-    "determinedDate": "Attribute:determinedDate"
+    "attributeDbId": "brapi:hasDatabaseIdentifier",
+    "attributeName": "brapi:hasName",
+    "attributeCode": "brapi:hasCode",
+    "value": "brapi:hasValue",
+    "determinedDate": "brapi:hasDateTime"
   }
 }

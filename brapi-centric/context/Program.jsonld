@@ -3,13 +3,13 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Program": "brapi:Program#",
+    "Program": "brapi:Program",
 
     "programPUI": "@id",
-    "programDbId": "Program:programDbId",
-    "name": "Program:name",
-    "abbreviation": "Program:abbreviation",
-    "objective": "Program:objective",
-    "leadPerson": "Program:leadPerson"
+    "programDbId": "brapi:hasDatabaseIdentifier",
+    "name": "brapi:hasName",
+    "abbreviation": "brapi:hasAbbreviation",
+    "objective": "brapi:hasObjective",
+    "leadPerson": "brapi:hasLeadPerson"
   }
 }

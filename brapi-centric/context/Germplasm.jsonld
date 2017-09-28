@@ -3,45 +3,43 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Germplasm": "brapi:Germplasm#",
-    "Donor": "Germplasm:Donor#",
+    "Germplasm": "brapi:Germplasm",
+    "Donor": "brapi:Donor",
 
     "germplasmPUI": "@id",
-    "germplasmDbId": "Germplasm:germplasmDbId",
-    "accessionNumber": "Germplasm:accessionNumber",
-    "genus": "Germplasm:genus",
-    "species": "Germplasm:species",
-    "speciesAuthority": "Germplasm:speciesAuthority",
-    "subtaxa": "Germplasm:subtaxa",
-    "subtaxaAuthority": "Germplasm:subtaxaAuthority",
-    "countryOfOriginCode": "Germplasm:countryOfOriginCode",
-    "instituteCode": "Germplasm:instituteCode",
-    "biologicalStatusOfAccessionCode": "Germplasm:biologicalStatusOfAccessionCode",
-    "collectingOrAcquisitionSourceCode": "Germplasm:collectingOrAcquisitionSourceCode",
-    "typeOfGermplasmStorageCode": {
-      "@id": "Germplasm:typeOfGermplasmStorageCode",
-      "@type": "xsd:integer"
-    },
-    "acquisitionDate": {
-      "@id": "Germplasm:acquisitionDate",
-      "@type": "xsd:date"
-    },
+    "germplasmDbId": "brapi:hasDatabaseIdentifier",
+    "accessionNumber": "brapi:hasAccessionNumber",
+    "genus": "brapi:hasGenus",
+    "species": "brapi:hasSpecies",
+    "speciesAuthority": "brapi:hasSpeciesAuthority",
+    "subtaxa": "brapi:hasSubtaxa",
+    "subtaxaAuthority": "brapi:hasSubtaxaAuthority",
+    "countryOfOriginCode": "brapi:hasCountryOfOriginCode",
+    "instituteCode": "brapi:hasInstituteCode",
+    "instituteName": "brapi:hasInstituteName",
+    "biologicalStatusOfAccessionCode": "brapi:hasBiologicalStatusOfAccessionCode",
+    "collectingOrAcquisitionSourceCode": "brapi:hasCollectingOrAcquisitionSourceCode",
+    "typeOfGermplasmStorageCode": "brapi:hasTypeOfGermplasmStorageCode",
+    "acquisitionDate": "brapi:hasAcquisitionDate",
 
     "donors": {
-      "@id": "Germplasm:donors",
+      "@id": "brapi:hasGermplasmDonor",
       "@type": "Donor"
     },
-    "donorAccessionNumber": "Donor:donorAccessionNumber",
-    "donorInstituteCode": "Donor:donorInstituteCode",
-    "donorInstituteName": "Donor:donorInstituteName",
-    "donorGermplasmPUI": "Donor:donorGermplasmPUI",
+    "donorAccessionNumber": "brapi:hasAccessionNumber",
+    "donorInstituteCode": "brapi:hasInstituteCode",
+    "donorInstituteName": "brapi:hasInstituteName",
+    "donorGermplasmPUI": {
+      "@id": "brapi:isDerivedFromGermplasm",
+      "@type": "@id"
+    },
 
     "taxonIds": {
-      "@id": "Germplasm:taxons",
+      "@id": "brapi:hasTaxon",
       "@type": "@id"
     },
     "ncbiTaxon": {
-      "@id": "Germplasm:taxons",
+      "@id": "brapi:hasTaxon",
       "@type": "@id"
     }
 

@@ -3,32 +3,23 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "brapi": "https://brapi.org/rdf/",
 
-    "Location": "brapi:Location#",
+    "Location": "brapi:Location",
 
     "locationPUI": "@id",
-    "locationDbId": "Location:locationDbId",
+    "locationDbId": "brapi:hasDatabaseIdentifier",
 
-    "name": "Location:name",
-    "abreviation": "Location:abreviation",
-    "locationType": "Location:locationType",
+    "name": "brapi:hasName",
+    "abreviation": "brapi:hasAbreviation",
+    "locationType": "brapi:hasType",
 
-    "countryCode": "Location:countryCode",
-    "countryName": "Location:countryName",
+    "countryCode": "brapi:hasCountryCode",
+    "countryName": "brapi:hasCountryName",
 
-    "instituteName": "Location:instituteName",
-    "instituteAdress": "Location:instituteAdress",
+    "instituteName": "brapi:hasInstituteName",
+    "instituteAdress": "brapi:hasInstituteAdress",
 
-    "latitude": {
-      "@id": "Location:latitude",
-      "@type": "xsd:decimal"
-    },
-    "longitude": {
-      "@id": "Location:longitude",
-      "@type": "xsd:decimal"
-    },
-    "altitude": {
-      "@id": "Location:altitude",
-      "@type": "xsd:decimal"
-    }
+    "latitude": "brapi:hasLatitude",
+    "longitude": "brapi:hasLongitude",
+    "altitude": "brapi:hasAltitude"
   }
 }
