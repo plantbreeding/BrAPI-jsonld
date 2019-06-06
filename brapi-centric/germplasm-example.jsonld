@@ -1,8 +1,8 @@
 {
-  "@context": ["context/brapi.jsonld", "context/Germplasm.jsonld"],
+  "@context": ["https://raw.githubusercontent.com/plantbreeding/BrAPI-jsonld/master/brapi-centric/context/brapi.jsonld", "https://raw.githubusercontent.com/plantbreeding/BrAPI-jsonld/master/brapi-centric/context/Germplasm.jsonld"],
   "metadata": {},
   "result": {
-    "@type": "Germplasm",
+    "@type": "brapi:Germplasm",
     "germplasmDbId": "01BEL084609",
     "germplasmPUI": "http://www.crop-diversity.org/mgis/accession/01BEL084609",
     "accessionNumber": "ITC0609",

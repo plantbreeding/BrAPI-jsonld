@@ -7,8 +7,8 @@
     "Donor": "brapi:Donor",
 
     "germplasmPUI": "@id",
-    "germplasmDbId": "brapi:hasDatabaseIdentifier",
-    "accessionNumber": "brapi:hasAccessionNumber",
+    "germplasmDbId": "brapi:#hasDatabaseIdentifier",
+    "accessionNumber": "brapi:#AccessionNumber",
     "genus": "brapi:hasGenus",
     "species": "brapi:hasSpecies",
     "speciesAuthority": "brapi:hasSpeciesAuthority",
