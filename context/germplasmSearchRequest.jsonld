@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "accessionNumbers": {
+            "@container": "@list",
+            "@id": "brapi:accessionNumbers",
+            "@type": "xsd:string"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropNames": {
+            "@container": "@list",
+            "@id": "brapi:commonCropNames",
+            "@type": "xsd:string"
+        },
+        "germplasmDbIds": {
+            "@container": "@list",
+            "@id": "brapi:germplasmDbIds",
+            "@type": "xsd:string"
+        },
+        "germplasmGenus": {
+            "@container": "@list",
+            "@id": "brapi:germplasmGenus",
+            "@type": "xsd:string"
+        },
+        "germplasmNames": {
+            "@container": "@list",
+            "@id": "brapi:germplasmNames",
+            "@type": "xsd:string"
+        },
+        "germplasmPUIs": {
+            "@container": "@list",
+            "@id": "brapi:germplasmPUIs",
+            "@type": "xsd:string"
+        },
+        "germplasmSpecies": {
+            "@container": "@list",
+            "@id": "brapi:germplasmSpecies",
+            "@type": "xsd:string"
+        },
+        "page": {
+            "@id": "brapi:page",
+            "@type": "xsd:integer"
+        },
+        "pageSize": {
+            "@id": "brapi:pageSize",
+            "@type": "xsd:integer"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

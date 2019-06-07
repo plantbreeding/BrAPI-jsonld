@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "datafiles": {
+            "@container": "@list",
+            "@id": "brapi:datafiles",
+            "@type": "xsd:string"
+        },
+        "pagination": {
+            "@id": "brapi:pagination",
+            "@type": "xsd:object"
+        },
+        "status": {
+            "@container": "@list",
+            "@id": "brapi:status",
+            "@type": "brapi:status"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

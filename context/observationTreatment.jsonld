@@ -1,0 +1,9 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "factor": "brapi:factor",
+        "modality": "brapi:modality",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

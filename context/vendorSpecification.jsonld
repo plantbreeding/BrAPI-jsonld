@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "services": {
+            "@container": "@list",
+            "@id": "brapi:services",
+            "@type": "brapi:vendorSpecificationService"
+        },
+        "vendorContact": {
+            "@id": "brapi:vendorContact",
+            "@type": "brapi:vendorContact"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

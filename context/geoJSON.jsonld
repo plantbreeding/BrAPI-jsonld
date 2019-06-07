@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "geometry": {
+            "@id": "brapi:geometry",
+            "@type": "xsd:object"
+        },
+        "type": "brapi:type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

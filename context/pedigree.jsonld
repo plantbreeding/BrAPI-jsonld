@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "crossingPlan": "brapi:crossingPlan",
+        "crossingYear": "brapi:crossingYear",
+        "defaultDisplayName": "brapi:defaultDisplayName",
+        "familyCode": "brapi:familyCode",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "parent1DbId": "brapi:parent1DbId",
+        "parent1Name": "brapi:parent1Name",
+        "parent1Type": "brapi:parent1Type",
+        "parent2DbId": "brapi:parent2DbId",
+        "parent2Name": "brapi:parent2Name",
+        "parent2Type": "brapi:parent2Type",
+        "pedigree": "brapi:pedigree",
+        "siblings": {
+            "@container": "@list",
+            "@id": "brapi:siblings",
+            "@type": "xsd:object"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

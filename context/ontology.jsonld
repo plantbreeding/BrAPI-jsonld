@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "authors": "brapi:authors",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "copyright": "brapi:copyright",
+        "description": "brapi:description",
+        "documentationURL": "brapi:documentationURL",
+        "licence": "brapi:licence",
+        "ontologyDbId": "brapi:ontologyDbId",
+        "ontologyName": "brapi:ontologyName",
+        "version": "brapi:version",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "abbreviation": "brapi:abbreviation",
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "altitude": {
+            "@id": "brapi:altitude",
+            "@type": "xsd:number"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "countryCode": "brapi:countryCode",
+        "countryName": "brapi:countryName",
+        "documentationURL": "brapi:documentationURL",
+        "instituteAddress": "brapi:instituteAddress",
+        "instituteName": "brapi:instituteName",
+        "latitude": {
+            "@id": "brapi:latitude",
+            "@type": "xsd:number"
+        },
+        "locationDbId": "brapi:locationDbId",
+        "locationName": "brapi:locationName",
+        "locationType": "brapi:locationType",
+        "longitude": {
+            "@id": "brapi:longitude",
+            "@type": "xsd:number"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

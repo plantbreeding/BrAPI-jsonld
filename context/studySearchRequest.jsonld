@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "active": {
+            "@id": "brapi:active",
+            "@type": "xsd:boolean"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropNames": {
+            "@container": "@list",
+            "@id": "brapi:commonCropNames",
+            "@type": "xsd:string"
+        },
+        "germplasmDbIds": {
+            "@container": "@list",
+            "@id": "brapi:germplasmDbIds",
+            "@type": "xsd:string"
+        },
+        "locationDbIds": {
+            "@container": "@list",
+            "@id": "brapi:locationDbIds",
+            "@type": "xsd:string"
+        },
+        "observationVariableDbIds": {
+            "@container": "@list",
+            "@id": "brapi:observationVariableDbIds",
+            "@type": "xsd:string"
+        },
+        "page": {
+            "@id": "brapi:page",
+            "@type": "xsd:integer"
+        },
+        "pageSize": {
+            "@id": "brapi:pageSize",
+            "@type": "xsd:integer"
+        },
+        "programDbIds": {
+            "@container": "@list",
+            "@id": "brapi:programDbIds",
+            "@type": "xsd:string"
+        },
+        "programNames": {
+            "@container": "@list",
+            "@id": "brapi:programNames",
+            "@type": "xsd:string"
+        },
+        "seasonDbIds": {
+            "@container": "@list",
+            "@id": "brapi:seasonDbIds",
+            "@type": "xsd:string"
+        },
+        "sortBy": "brapi:sortBy",
+        "sortOrder": "brapi:sortOrder",
+        "studyDbIds": {
+            "@container": "@list",
+            "@id": "brapi:studyDbIds",
+            "@type": "xsd:string"
+        },
+        "studyNames": {
+            "@container": "@list",
+            "@id": "brapi:studyNames",
+            "@type": "xsd:string"
+        },
+        "studyTypeDbIds": {
+            "@container": "@list",
+            "@id": "brapi:studyTypeDbIds",
+            "@type": "xsd:string"
+        },
+        "studyTypeNames": {
+            "@container": "@list",
+            "@id": "brapi:studyTypeNames",
+            "@type": "xsd:string"
+        },
+        "trialDbIds": {
+            "@container": "@list",
+            "@id": "brapi:trialDbIds",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

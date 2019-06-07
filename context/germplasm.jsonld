@@ -1,0 +1,50 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "accessionNumber": "brapi:accessionNumber",
+        "acquisitionDate": "brapi:acquisitionDate",
+        "biologicalStatusOfAccessionCode": {
+            "@id": "brapi:biologicalStatusOfAccessionCode",
+            "@type": "xsd:integer"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "breedingMethodDbId": "brapi:breedingMethodDbId",
+        "commonCropName": "brapi:commonCropName",
+        "countryOfOriginCode": "brapi:countryOfOriginCode",
+        "defaultDisplayName": "brapi:defaultDisplayName",
+        "documentationURL": "brapi:documentationURL",
+        "donors": {
+            "@container": "@list",
+            "@id": "brapi:donors",
+            "@type": "xsd:object"
+        },
+        "germplasmDbId": "brapi:germplasmDbId",
+        "germplasmGenus": "brapi:germplasmGenus",
+        "germplasmName": "brapi:germplasmName",
+        "germplasmPUI": "brapi:germplasmPUI",
+        "germplasmSpecies": "brapi:germplasmSpecies",
+        "instituteCode": "brapi:instituteCode",
+        "instituteName": "brapi:instituteName",
+        "pedigree": "brapi:pedigree",
+        "seedSource": "brapi:seedSource",
+        "speciesAuthority": "brapi:speciesAuthority",
+        "subtaxa": "brapi:subtaxa",
+        "subtaxaAuthority": "brapi:subtaxaAuthority",
+        "synonyms": {
+            "@container": "@list",
+            "@id": "brapi:synonyms",
+            "@type": "xsd:string"
+        },
+        "taxonIds": {
+            "@container": "@list",
+            "@id": "brapi:taxonIds",
+            "@type": "brapi:taxonID"
+        },
+        "typeOfGermplasmStorageCode": {
+            "@container": "@list",
+            "@id": "brapi:typeOfGermplasmStorageCode",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

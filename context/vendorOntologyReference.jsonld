@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "ontologyID": "brapi:ontologyID",
+        "ontologyPrefix": "brapi:ontologyPrefix",
+        "ontologyTerm": "brapi:ontologyTerm",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

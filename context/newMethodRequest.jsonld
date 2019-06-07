@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "class": "brapi:class",
+        "description": "brapi:description",
+        "formula": "brapi:formula",
+        "methodName": "brapi:methodName",
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:ontologyReference"
+        },
+        "reference": "brapi:reference",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

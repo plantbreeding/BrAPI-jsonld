@@ -1,0 +1,31 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "active": "brapi:active",
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "documentationURL": "brapi:documentationURL",
+        "endDate": "brapi:endDate",
+        "locationDbId": "brapi:locationDbId",
+        "locationName": "brapi:locationName",
+        "programDbId": "brapi:programDbId",
+        "programName": "brapi:programName",
+        "seasons": {
+            "@container": "@list",
+            "@id": "brapi:seasons",
+            "@type": "brapi:season"
+        },
+        "startDate": "brapi:startDate",
+        "studyDbId": "brapi:studyDbId",
+        "studyName": "brapi:studyName",
+        "studyTypeDbId": "brapi:studyTypeDbId",
+        "studyTypeName": "brapi:studyTypeName",
+        "trialDbId": "brapi:trialDbId",
+        "trialName": "brapi:trialName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

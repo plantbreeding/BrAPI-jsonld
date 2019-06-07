@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "dataType": {
+            "@id": "brapi:dataType",
+            "@type": "brapi:traitDataType"
+        },
+        "decimalPlaces": {
+            "@id": "brapi:decimalPlaces",
+            "@type": "xsd:integer"
+        },
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:ontologyReference"
+        },
+        "scaleDbId": "brapi:scaleDbId",
+        "scaleName": "brapi:scaleName",
+        "validValues": {
+            "@id": "brapi:validValues",
+            "@type": "brapi:validValues"
+        },
+        "xref": "brapi:xref",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

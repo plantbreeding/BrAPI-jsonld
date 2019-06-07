@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "units": "brapi:units",
+        "value": {
+            "@id": "brapi:value",
+            "@type": "xsd:number"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "serviceDescription": "brapi:serviceDescription",
+        "serviceId": "brapi:serviceId",
+        "serviceName": "brapi:serviceName",
+        "servicePlatformMarkerType": "brapi:servicePlatformMarkerType",
+        "servicePlatformName": "brapi:servicePlatformName",
+        "specificRequirements": {
+            "@id": "brapi:specificRequirements",
+            "@type": "xsd:object"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

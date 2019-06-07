@@ -1,0 +1,35 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "includeSynonyms": {
+            "@id": "brapi:includeSynonyms",
+            "@type": "xsd:boolean"
+        },
+        "markerDbIds": {
+            "@container": "@list",
+            "@id": "brapi:markerDbIds",
+            "@type": "xsd:string"
+        },
+        "markerNames": {
+            "@container": "@list",
+            "@id": "brapi:markerNames",
+            "@type": "xsd:string"
+        },
+        "matchMethod": "brapi:matchMethod",
+        "page": {
+            "@id": "brapi:page",
+            "@type": "xsd:integer"
+        },
+        "pageSize": {
+            "@id": "brapi:pageSize",
+            "@type": "xsd:integer"
+        },
+        "types": {
+            "@container": "@list",
+            "@id": "brapi:types",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

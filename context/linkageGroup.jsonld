@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "linkageGroupName": "brapi:linkageGroupName",
+        "markerCount": {
+            "@id": "brapi:markerCount",
+            "@type": "xsd:integer"
+        },
+        "maxPosition": {
+            "@id": "brapi:maxPosition",
+            "@type": "xsd:integer"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

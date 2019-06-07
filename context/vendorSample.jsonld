@@ -1,0 +1,32 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "clientSampleBarCode": "brapi:clientSampleBarCode",
+        "clientSampleId": "brapi:clientSampleId",
+        "column": "brapi:column",
+        "comments": "brapi:comments",
+        "concentration": {
+            "@id": "brapi:concentration",
+            "@type": "brapi:measurement"
+        },
+        "organismName": "brapi:organismName",
+        "row": "brapi:row",
+        "speciesName": "brapi:speciesName",
+        "taxonomyOntologyReference": {
+            "@id": "brapi:taxonomyOntologyReference",
+            "@type": "brapi:vendorOntologyReference"
+        },
+        "tissueType": "brapi:tissueType",
+        "tissueTypeOntologyReference": {
+            "@id": "brapi:tissueTypeOntologyReference",
+            "@type": "brapi:vendorOntologyReference"
+        },
+        "volume": {
+            "@id": "brapi:volume",
+            "@type": "brapi:measurement"
+        },
+        "well": "brapi:well",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

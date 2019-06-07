@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "blockNumber": "brapi:blockNumber",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "entryType": "brapi:entryType",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "germplasmName": "brapi:germplasmName",
+        "observationLevel": "brapi:observationLevel",
+        "observationUnitDbId": "brapi:observationUnitDbId",
+        "observationUnitName": "brapi:observationUnitName",
+        "positionCoordinateX": "brapi:positionCoordinateX",
+        "positionCoordinateXType": "brapi:positionCoordinateXType",
+        "positionCoordinateY": "brapi:positionCoordinateY",
+        "positionCoordinateYType": "brapi:positionCoordinateYType",
+        "replicate": "brapi:replicate",
+        "studyDbId": "brapi:studyDbId",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

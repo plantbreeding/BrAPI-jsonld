@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "active": {
+            "@id": "brapi:active",
+            "@type": "xsd:boolean"
+        },
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "contacts": {
+            "@container": "@list",
+            "@id": "brapi:contacts",
+            "@type": "brapi:contact"
+        },
+        "datasetAuthorships": {
+            "@container": "@list",
+            "@id": "brapi:datasetAuthorships",
+            "@type": "xsd:object"
+        },
+        "documentationURL": "brapi:documentationURL",
+        "endDate": "brapi:endDate",
+        "programDbId": "brapi:programDbId",
+        "programName": "brapi:programName",
+        "publications": {
+            "@container": "@list",
+            "@id": "brapi:publications",
+            "@type": "xsd:object"
+        },
+        "startDate": "brapi:startDate",
+        "studies": {
+            "@container": "@list",
+            "@id": "brapi:studies",
+            "@type": "xsd:object"
+        },
+        "trialDbId": "brapi:trialDbId",
+        "trialName": "brapi:trialName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

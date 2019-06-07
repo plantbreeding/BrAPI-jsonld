@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "active": "brapi:active",
+        "additionalInfo": {
+            "@id": "brapi:additionalInfo",
+            "@type": "xsd:object"
+        },
+        "brapi": "https://brapi.org/jsonld.html#",
+        "commonCropName": "brapi:commonCropName",
+        "contacts": {
+            "@container": "@list",
+            "@id": "brapi:contacts",
+            "@type": "brapi:contact"
+        },
+        "dataLinks": {
+            "@container": "@list",
+            "@id": "brapi:dataLinks",
+            "@type": "brapi:dataLink"
+        },
+        "documentationURL": "brapi:documentationURL",
+        "endDate": "brapi:endDate",
+        "lastUpdate": {
+            "@id": "brapi:lastUpdate",
+            "@type": "xsd:object"
+        },
+        "license": "brapi:license",
+        "location": {
+            "@id": "brapi:location",
+            "@type": "brapi:location"
+        },
+        "seasons": {
+            "@container": "@list",
+            "@id": "brapi:seasons",
+            "@type": "xsd:string"
+        },
+        "startDate": "brapi:startDate",
+        "studyDbId": "brapi:studyDbId",
+        "studyDescription": "brapi:studyDescription",
+        "studyName": "brapi:studyName",
+        "studyTypeDbId": "brapi:studyTypeDbId",
+        "studyTypeName": "brapi:studyTypeName",
+        "trialDbId": "brapi:trialDbId",
+        "trialName": "brapi:trialName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

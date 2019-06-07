@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "comments": "brapi:comments",
+        "commonCropName": "brapi:commonCropName",
+        "documentationURL": "brapi:documentationURL",
+        "linkageGroupCount": {
+            "@id": "brapi:linkageGroupCount",
+            "@type": "xsd:integer"
+        },
+        "mapDbId": "brapi:mapDbId",
+        "mapName": "brapi:mapName",
+        "markerCount": {
+            "@id": "brapi:markerCount",
+            "@type": "xsd:integer"
+        },
+        "publishedDate": "brapi:publishedDate",
+        "scientificName": "brapi:scientificName",
+        "type": "brapi:type",
+        "unit": "brapi:unit",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

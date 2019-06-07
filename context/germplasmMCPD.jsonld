@@ -1,0 +1,57 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "accessionNames": {
+            "@container": "@list",
+            "@id": "brapi:accessionNames",
+            "@type": "xsd:string"
+        },
+        "accessionNumber": "brapi:accessionNumber",
+        "acquisitionDate": "brapi:acquisitionDate",
+        "acquisitionSourceCode": "brapi:acquisitionSourceCode",
+        "alternateIDs": {
+            "@container": "@list",
+            "@id": "brapi:alternateIDs",
+            "@type": "xsd:string"
+        },
+        "ancestralData": "brapi:ancestralData",
+        "biologicalStatusOfAccessionCode": "brapi:biologicalStatusOfAccessionCode",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "breedingInstitutes": {
+            "@container": "@list",
+            "@id": "brapi:breedingInstitutes",
+            "@type": "xsd:object"
+        },
+        "collectingInfo": {
+            "@id": "brapi:collectingInfo",
+            "@type": "xsd:object"
+        },
+        "commonCropName": "brapi:commonCropName",
+        "countryOfOrigin": "brapi:countryOfOrigin",
+        "donorInfo": {
+            "@id": "brapi:donorInfo",
+            "@type": "xsd:object"
+        },
+        "genus": "brapi:genus",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "germplasmPUI": "brapi:germplasmPUI",
+        "instituteCode": "brapi:instituteCode",
+        "mlsStatus": "brapi:mlsStatus",
+        "remarks": "brapi:remarks",
+        "safetyDuplicateInstitues": {
+            "@container": "@list",
+            "@id": "brapi:safetyDuplicateInstitues",
+            "@type": "xsd:object"
+        },
+        "species": "brapi:species",
+        "speciesAuthority": "brapi:speciesAuthority",
+        "storageTypeCodes": {
+            "@container": "@list",
+            "@id": "brapi:storageTypeCodes",
+            "@type": "xsd:string"
+        },
+        "subtaxon": "brapi:subtaxon",
+        "subtaxonAuthority": "brapi:subtaxonAuthority",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

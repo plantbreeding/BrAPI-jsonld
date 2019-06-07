@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "vendorAddress": "brapi:vendorAddress",
+        "vendorCity": "brapi:vendorCity",
+        "vendorContactName": "brapi:vendorContactName",
+        "vendorCountry": "brapi:vendorCountry",
+        "vendorDescription": "brapi:vendorDescription",
+        "vendorEmail": "brapi:vendorEmail",
+        "vendorName": "brapi:vendorName",
+        "vendorPhone": "brapi:vendorPhone",
+        "vendorURL": "brapi:vendorURL",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

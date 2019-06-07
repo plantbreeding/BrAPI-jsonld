@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "call": "brapi:call",
+        "dataTypes": {
+            "@container": "@list",
+            "@id": "brapi:dataTypes",
+            "@type": "brapi:WSMIMEDataTypes"
+        },
+        "methods": {
+            "@container": "@list",
+            "@id": "brapi:methods",
+            "@type": "xsd:string"
+        },
+        "versions": {
+            "@container": "@list",
+            "@id": "brapi:versions",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "data": {
+            "@container": "@list",
+            "@id": "brapi:data",
+            "@type": "brapi:germplasmSummary"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

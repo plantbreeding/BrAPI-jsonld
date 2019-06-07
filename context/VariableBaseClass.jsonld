@@ -1,0 +1,43 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "contextOfUse": {
+            "@container": "@list",
+            "@id": "brapi:contextOfUse",
+            "@type": "xsd:string"
+        },
+        "crop": "brapi:crop",
+        "defaultValue": "brapi:defaultValue",
+        "documentationURL": "brapi:documentationURL",
+        "growthStage": "brapi:growthStage",
+        "institution": "brapi:institution",
+        "language": "brapi:language",
+        "method": {
+            "@id": "brapi:method",
+            "@type": "brapi:method"
+        },
+        "ontologyReference": {
+            "@id": "brapi:ontologyReference",
+            "@type": "brapi:ontologyReference"
+        },
+        "scale": {
+            "@id": "brapi:scale",
+            "@type": "brapi:scale"
+        },
+        "scientist": "brapi:scientist",
+        "status": "brapi:status",
+        "submissionTimestamp": "brapi:submissionTimestamp",
+        "synonyms": {
+            "@container": "@list",
+            "@id": "brapi:synonyms",
+            "@type": "xsd:string"
+        },
+        "trait": {
+            "@id": "brapi:trait",
+            "@type": "brapi:trait"
+        },
+        "xref": "brapi:xref",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

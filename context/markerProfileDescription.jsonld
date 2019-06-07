@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "analysisMethod": "brapi:analysisMethod",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "extractDbId": "brapi:extractDbId",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "markerProfileDbId": "brapi:markerProfileDbId",
+        "resultCount": {
+            "@id": "brapi:resultCount",
+            "@type": "xsd:integer"
+        },
+        "sampleDbId": "brapi:sampleDbId",
+        "uniqueDisplayName": "brapi:uniqueDisplayName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

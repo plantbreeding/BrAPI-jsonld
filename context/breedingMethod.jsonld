@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "abbreviation": "brapi:abbreviation",
+        "brapi": "https://brapi.org/jsonld.html#",
+        "breedingMethodDbId": "brapi:breedingMethodDbId",
+        "breedingMethodName": "brapi:breedingMethodName",
+        "description": "brapi:description",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

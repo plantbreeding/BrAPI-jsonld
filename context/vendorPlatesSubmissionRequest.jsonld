@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "clientId": "brapi:clientId",
+        "numberOfSamples": {
+            "@id": "brapi:numberOfSamples",
+            "@type": "xsd:integer"
+        },
+        "plates": {
+            "@container": "@list",
+            "@id": "brapi:plates",
+            "@type": "xsd:object"
+        },
+        "sampleType": "brapi:sampleType",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

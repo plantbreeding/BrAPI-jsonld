@@ -1,0 +1,16 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "defaultValue": "brapi:defaultValue",
+        "description": "brapi:description",
+        "observationVariables": {
+            "@container": "@list",
+            "@id": "brapi:observationVariables",
+            "@type": "xsd:string"
+        },
+        "traitDbId": "brapi:traitDbId",
+        "traitName": "brapi:traitName",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

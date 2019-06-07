@@ -1,0 +1,67 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "descriptiveOntologyTerms": {
+            "@container": "@list",
+            "@id": "brapi:descriptiveOntologyTerms",
+            "@type": "xsd:string"
+        },
+        "imageFileNames": {
+            "@container": "@list",
+            "@id": "brapi:imageFileNames",
+            "@type": "xsd:string"
+        },
+        "imageFileSizeMax": {
+            "@id": "brapi:imageFileSizeMax",
+            "@type": "xsd:integer"
+        },
+        "imageFileSizeMin": {
+            "@id": "brapi:imageFileSizeMin",
+            "@type": "xsd:integer"
+        },
+        "imageHeightMax": {
+            "@id": "brapi:imageHeightMax",
+            "@type": "xsd:integer"
+        },
+        "imageHeightMin": {
+            "@id": "brapi:imageHeightMin",
+            "@type": "xsd:integer"
+        },
+        "imageLocation": {
+            "@id": "brapi:imageLocation",
+            "@type": "brapi:geoJSON"
+        },
+        "imageNames": {
+            "@container": "@list",
+            "@id": "brapi:imageNames",
+            "@type": "xsd:string"
+        },
+        "imageTimeStampRangeEnd": "brapi:imageTimeStampRangeEnd",
+        "imageTimeStampRangeStart": "brapi:imageTimeStampRangeStart",
+        "imageWidthMax": {
+            "@id": "brapi:imageWidthMax",
+            "@type": "xsd:integer"
+        },
+        "imageWidthMin": {
+            "@id": "brapi:imageWidthMin",
+            "@type": "xsd:integer"
+        },
+        "mimeTypes": {
+            "@container": "@list",
+            "@id": "brapi:mimeTypes",
+            "@type": "xsd:string"
+        },
+        "observationDbIds": {
+            "@container": "@list",
+            "@id": "brapi:observationDbIds",
+            "@type": "xsd:string"
+        },
+        "observationUnitDbIds": {
+            "@container": "@list",
+            "@id": "brapi:observationUnitDbIds",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

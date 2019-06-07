@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "clientPlateBarcode": "brapi:clientPlateBarcode",
+        "clientPlateId": "brapi:clientPlateId",
+        "sampleSubmissionFormat": {
+            "@id": "brapi:sampleSubmissionFormat",
+            "@type": "brapi:plateFormat"
+        },
+        "samples": {
+            "@container": "@list",
+            "@id": "brapi:samples",
+            "@type": "brapi:vendorSample"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

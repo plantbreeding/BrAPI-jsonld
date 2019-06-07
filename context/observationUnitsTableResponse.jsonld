@@ -1,0 +1,27 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "data": {
+            "@container": "@list",
+            "@id": "brapi:data",
+            "@type": "xsd:array"
+        },
+        "headerRow": {
+            "@container": "@list",
+            "@id": "brapi:headerRow",
+            "@type": "xsd:string"
+        },
+        "observationVariableDbIds": {
+            "@container": "@list",
+            "@id": "brapi:observationVariableDbIds",
+            "@type": "xsd:string"
+        },
+        "observationVariableNames": {
+            "@container": "@list",
+            "@id": "brapi:observationVariableNames",
+            "@type": "xsd:string"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

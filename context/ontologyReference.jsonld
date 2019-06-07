@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "documentationLinks": {
+            "@container": "@list",
+            "@id": "brapi:documentationLinks",
+            "@type": "xsd:object"
+        },
+        "ontologyDbId": "brapi:ontologyDbId",
+        "ontologyName": "brapi:ontologyName",
+        "version": "brapi:version",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}

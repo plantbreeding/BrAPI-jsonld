@@ -1,0 +1,23 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "brapi": "https://brapi.org/jsonld.html#",
+        "germplasmDbId": "brapi:germplasmDbId",
+        "notes": "brapi:notes",
+        "observationUnitDbId": "brapi:observationUnitDbId",
+        "plantDbId": "brapi:plantDbId",
+        "plateDbId": "brapi:plateDbId",
+        "plateIndex": {
+            "@id": "brapi:plateIndex",
+            "@type": "xsd:integer"
+        },
+        "plotDbId": "brapi:plotDbId",
+        "sampleDbId": "brapi:sampleDbId",
+        "sampleTimestamp": "brapi:sampleTimestamp",
+        "sampleType": "brapi:sampleType",
+        "studyDbId": "brapi:studyDbId",
+        "takenBy": "brapi:takenBy",
+        "tissueType": "brapi:tissueType",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}
