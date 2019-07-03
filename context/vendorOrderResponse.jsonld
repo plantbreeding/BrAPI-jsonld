@@ -1,14 +1,20 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "fileDescription": "brapi:fileDescription",
+        "fileName": "brapi:fileName",
+        "fileURL": "brapi:fileURL",
         "metadata": {
             "@id": "brapi:metadata",
             "@type": "brapi:metadata"
         },
-        "result": {
-            "@id": "brapi:result",
-            "@type": "xsd:object"
+        "orderId": "brapi:orderId",
+        "result": "brapi:result",
+        "shipmentForms": {
+            "@container": "@list",
+            "@id": "brapi:shipmentForms"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

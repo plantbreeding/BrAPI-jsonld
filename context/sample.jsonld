@@ -1,8 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
         "germplasmDbId": "brapi:germplasmDbId",
+        "metadata": "brapi:metadata",
         "notes": "brapi:notes",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "plantDbId": "brapi:plantDbId",
@@ -12,6 +14,7 @@
             "@type": "xsd:integer"
         },
         "plotDbId": "brapi:plotDbId",
+        "result": "brapi:result",
         "sampleDbId": "brapi:sampleDbId",
         "sampleTimestamp": "brapi:sampleTimestamp",
         "sampleType": "brapi:sampleType",

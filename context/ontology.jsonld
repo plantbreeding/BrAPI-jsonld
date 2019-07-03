@@ -2,13 +2,16 @@
     "@context": {
         "@version": 1.1,
         "authors": "brapi:authors",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "copyright": "brapi:copyright",
+        "data": "brapi:data",
         "description": "brapi:description",
         "documentationURL": "brapi:documentationURL",
         "licence": "brapi:licence",
+        "metadata": "brapi:metadata",
         "ontologyDbId": "brapi:ontologyDbId",
         "ontologyName": "brapi:ontologyName",
+        "result": "brapi:result",
         "version": "brapi:version",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

@@ -1,7 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
         "vendorAddress": "brapi:vendorAddress",
         "vendorCity": "brapi:vendorCity",
         "vendorContactName": "brapi:vendorContactName",

@@ -7,43 +7,50 @@
             "@id": "brapi:biologicalStatusOfAccessionCode",
             "@type": "xsd:integer"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "breedingMethodDbId": "brapi:breedingMethodDbId",
         "commonCropName": "brapi:commonCropName",
         "countryOfOriginCode": "brapi:countryOfOriginCode",
+        "data": "brapi:data",
         "defaultDisplayName": "brapi:defaultDisplayName",
         "documentationURL": "brapi:documentationURL",
+        "donorAccessionNumber": "brapi:donorAccessionNumber",
+        "donorInstituteCode": "brapi:donorInstituteCode",
         "donors": {
             "@container": "@list",
-            "@id": "brapi:donors",
-            "@type": "xsd:object"
+            "@id": "brapi:donors"
         },
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmGenus": "brapi:germplasmGenus",
         "germplasmName": "brapi:germplasmName",
+        "germplasmOrigin": {
+            "@container": "@list",
+            "@id": "brapi:germplasmOrigin"
+        },
         "germplasmPUI": "brapi:germplasmPUI",
+        "germplasmPreprocessing": "brapi:germplasmPreprocessing",
         "germplasmSpecies": "brapi:germplasmSpecies",
         "instituteCode": "brapi:instituteCode",
         "instituteName": "brapi:instituteName",
+        "metadata": "brapi:metadata",
         "pedigree": "brapi:pedigree",
+        "result": "brapi:result",
         "seedSource": "brapi:seedSource",
+        "seedSourseDescription": "brapi:seedSourseDescription",
         "speciesAuthority": "brapi:speciesAuthority",
         "subtaxa": "brapi:subtaxa",
         "subtaxaAuthority": "brapi:subtaxaAuthority",
         "synonyms": {
             "@container": "@list",
-            "@id": "brapi:synonyms",
-            "@type": "xsd:string"
+            "@id": "brapi:synonyms"
         },
         "taxonIds": {
             "@container": "@list",
-            "@id": "brapi:taxonIds",
-            "@type": "brapi:taxonID"
+            "@id": "brapi:taxonIds"
         },
         "typeOfGermplasmStorageCode": {
             "@container": "@list",
-            "@id": "brapi:typeOfGermplasmStorageCode",
-            "@type": "xsd:string"
+            "@id": "brapi:typeOfGermplasmStorageCode"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

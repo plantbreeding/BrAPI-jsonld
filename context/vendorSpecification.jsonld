@@ -1,15 +1,14 @@
 {
     "@context": {
         "@version": 1.1,
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
-        },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
         "services": {
             "@container": "@list",
-            "@id": "brapi:services",
-            "@type": "brapi:vendorSpecificationService"
+            "@id": "brapi:services"
         },
         "vendorContact": {
             "@id": "brapi:vendorContact",

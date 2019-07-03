@@ -2,22 +2,21 @@
     "@context": {
         "@version": 1.1,
         "active": "brapi:active",
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
-        },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
         "locationDbId": "brapi:locationDbId",
         "locationName": "brapi:locationName",
+        "metadata": "brapi:metadata",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
+        "result": "brapi:result",
         "seasons": {
             "@container": "@list",
-            "@id": "brapi:seasons",
-            "@type": "brapi:season"
+            "@id": "brapi:seasons"
         },
         "startDate": "brapi:startDate",
         "studyDbId": "brapi:studyDbId",

@@ -1,18 +1,30 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "clientId": "brapi:clientId",
+        "clientPlateBarcode": "brapi:clientPlateBarcode",
+        "clientPlateId": "brapi:clientPlateId",
+        "data": "brapi:data",
+        "metadata": "brapi:metadata",
         "numberOfSamples": {
             "@id": "brapi:numberOfSamples",
             "@type": "xsd:integer"
         },
         "plates": {
             "@container": "@list",
-            "@id": "brapi:plates",
-            "@type": "xsd:object"
+            "@id": "brapi:plates"
+        },
+        "result": "brapi:result",
+        "sampleSubmissionFormat": {
+            "@id": "brapi:sampleSubmissionFormat",
+            "@type": "brapi:plateFormat"
         },
         "sampleType": "brapi:sampleType",
+        "samples": {
+            "@container": "@list",
+            "@id": "brapi:samples"
+        },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

@@ -1,9 +1,10 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "comments": "brapi:comments",
         "commonCropName": "brapi:commonCropName",
+        "data": "brapi:data",
         "documentationURL": "brapi:documentationURL",
         "linkageGroupCount": {
             "@id": "brapi:linkageGroupCount",
@@ -15,7 +16,9 @@
             "@id": "brapi:markerCount",
             "@type": "xsd:integer"
         },
+        "metadata": "brapi:metadata",
         "publishedDate": "brapi:publishedDate",
+        "result": "brapi:result",
         "scientificName": "brapi:scientificName",
         "type": "brapi:type",
         "unit": "brapi:unit",

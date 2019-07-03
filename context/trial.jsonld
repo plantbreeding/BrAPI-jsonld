@@ -5,38 +5,37 @@
             "@id": "brapi:active",
             "@type": "xsd:boolean"
         },
-        "additionalInfo": {
-            "@id": "brapi:additionalInfo",
-            "@type": "xsd:object"
-        },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropName": "brapi:commonCropName",
         "contacts": {
             "@container": "@list",
-            "@id": "brapi:contacts",
-            "@type": "brapi:contact"
+            "@id": "brapi:contacts"
         },
+        "data": "brapi:data",
         "datasetAuthorships": {
             "@container": "@list",
-            "@id": "brapi:datasetAuthorships",
-            "@type": "xsd:object"
+            "@id": "brapi:datasetAuthorships"
         },
+        "datasetPUI": "brapi:datasetPUI",
         "documentationURL": "brapi:documentationURL",
         "endDate": "brapi:endDate",
+        "license": "brapi:license",
+        "metadata": "brapi:metadata",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
+        "publicReleaseDate": "brapi:publicReleaseDate",
+        "publicationPUI": "brapi:publicationPUI",
+        "publicationReference": "brapi:publicationReference",
         "publications": {
             "@container": "@list",
-            "@id": "brapi:publications",
-            "@type": "xsd:object"
+            "@id": "brapi:publications"
         },
+        "result": "brapi:result",
         "startDate": "brapi:startDate",
-        "studies": {
-            "@container": "@list",
-            "@id": "brapi:studies",
-            "@type": "xsd:object"
-        },
+        "submissionDate": "brapi:submissionDate",
         "trialDbId": "brapi:trialDbId",
+        "trialDescription": "brapi:trialDescription",
         "trialName": "brapi:trialName",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

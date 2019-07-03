@@ -3,24 +3,25 @@
         "@version": 1.1,
         "alternativeAbbreviations": {
             "@container": "@list",
-            "@id": "brapi:alternativeAbbreviations",
-            "@type": "xsd:string"
+            "@id": "brapi:alternativeAbbreviations"
         },
         "attribute": "brapi:attribute",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "class": "brapi:class",
+        "data": "brapi:data",
         "description": "brapi:description",
         "entity": "brapi:entity",
         "mainAbbreviation": "brapi:mainAbbreviation",
+        "metadata": "brapi:metadata",
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"
         },
+        "result": "brapi:result",
         "status": "brapi:status",
         "synonyms": {
             "@container": "@list",
-            "@id": "brapi:synonyms",
-            "@type": "xsd:string"
+            "@id": "brapi:synonyms"
         },
         "traitDbId": "brapi:traitDbId",
         "traitName": "brapi:traitName",

@@ -1,69 +1,57 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
         "dataTypes": {
             "@container": "@list",
-            "@id": "brapi:dataTypes",
-            "@type": "brapi:traitDataType"
+            "@id": "brapi:dataTypes"
         },
+        "metadata": "brapi:metadata",
         "methodDbIds": {
             "@container": "@list",
-            "@id": "brapi:methodDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:methodDbIds"
         },
         "observationVariableDbIds": {
             "@container": "@list",
-            "@id": "brapi:observationVariableDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:observationVariableDbIds"
         },
         "observationVariableNames": {
             "@container": "@list",
-            "@id": "brapi:observationVariableNames",
-            "@type": "xsd:string"
+            "@id": "brapi:observationVariableNames"
         },
         "observationVariableXrefs": {
             "@container": "@list",
-            "@id": "brapi:observationVariableXrefs",
-            "@type": "xsd:string"
+            "@id": "brapi:observationVariableXrefs"
         },
         "ontologyDbIds": {
             "@container": "@list",
-            "@id": "brapi:ontologyDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:ontologyDbIds"
         },
-        "page": {
-            "@id": "brapi:page",
-            "@type": "xsd:integer"
-        },
-        "pageSize": {
-            "@id": "brapi:pageSize",
-            "@type": "xsd:integer"
-        },
+        "result": "brapi:result",
         "scaleDbIds": {
             "@container": "@list",
-            "@id": "brapi:scaleDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:scaleDbIds"
         },
         "scaleXrefs": {
             "@container": "@list",
-            "@id": "brapi:scaleXrefs",
-            "@type": "xsd:string"
+            "@id": "brapi:scaleXrefs"
+        },
+        "studyDbId": {
+            "@container": "@list",
+            "@id": "brapi:studyDbId"
         },
         "traitClasses": {
             "@container": "@list",
-            "@id": "brapi:traitClasses",
-            "@type": "xsd:string"
+            "@id": "brapi:traitClasses"
         },
         "traitDbIds": {
             "@container": "@list",
-            "@id": "brapi:traitDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:traitDbIds"
         },
         "traitXrefs": {
             "@container": "@list",
-            "@id": "brapi:traitXrefs",
-            "@type": "xsd:string"
+            "@id": "brapi:traitXrefs"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

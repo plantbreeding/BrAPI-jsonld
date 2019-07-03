@@ -1,7 +1,8 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
         "dataType": {
             "@id": "brapi:dataType",
             "@type": "brapi:traitDataType"
@@ -10,10 +11,12 @@
             "@id": "brapi:decimalPlaces",
             "@type": "xsd:integer"
         },
+        "metadata": "brapi:metadata",
         "ontologyReference": {
             "@id": "brapi:ontologyReference",
             "@type": "brapi:ontologyReference"
         },
+        "result": "brapi:result",
         "scaleName": "brapi:scaleName",
         "validValues": {
             "@id": "brapi:validValues",

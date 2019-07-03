@@ -1,44 +1,35 @@
 {
     "@context": {
         "@version": 1.1,
-        "blockNumber": "brapi:blockNumber",
-        "brapi": "https://brapi.org/jsonld.html#",
-        "entryNumber": "brapi:entryNumber",
-        "entryType": "brapi:entryType",
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
+        "data": "brapi:data",
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmName": "brapi:germplasmName",
         "locationDbId": "brapi:locationDbId",
         "locationName": "brapi:locationName",
+        "metadata": "brapi:metadata",
         "observationLevel": "brapi:observationLevel",
-        "observationLevels": "brapi:observationLevels",
         "observationUnitDbId": "brapi:observationUnitDbId",
         "observationUnitName": "brapi:observationUnitName",
+        "observationUnitPosition": {
+            "@id": "brapi:observationUnitPosition",
+            "@type": "brapi:observationUnitPosition"
+        },
         "observationUnitXref": {
             "@container": "@list",
-            "@id": "brapi:observationUnitXref",
-            "@type": "brapi:observationUnitXref"
+            "@id": "brapi:observationUnitXref"
         },
-        "observations": {
-            "@container": "@list",
-            "@id": "brapi:observations",
-            "@type": "brapi:observationSummary"
-        },
-        "pedigree": "brapi:pedigree",
         "plantNumber": "brapi:plantNumber",
         "plotNumber": "brapi:plotNumber",
-        "positionCoordinateX": "brapi:positionCoordinateX",
-        "positionCoordinateXType": "brapi:positionCoordinateXType",
-        "positionCoordinateY": "brapi:positionCoordinateY",
-        "positionCoordinateYType": "brapi:positionCoordinateYType",
         "programDbId": "brapi:programDbId",
         "programName": "brapi:programName",
-        "replicate": "brapi:replicate",
+        "result": "brapi:result",
         "studyDbId": "brapi:studyDbId",
         "studyName": "brapi:studyName",
         "treatments": {
             "@container": "@list",
-            "@id": "brapi:treatments",
-            "@type": "brapi:observationTreatment"
+            "@id": "brapi:treatments"
         },
         "trialDbId": "brapi:trialDbId",
         "trialName": "brapi:trialName",

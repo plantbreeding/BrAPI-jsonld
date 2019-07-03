@@ -3,48 +3,36 @@
         "@version": 1.1,
         "abbreviations": {
             "@container": "@list",
-            "@id": "brapi:abbreviations",
-            "@type": "xsd:string"
+            "@id": "brapi:abbreviations"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
-            "@id": "brapi:commonCropNames",
-            "@type": "xsd:string"
+            "@id": "brapi:commonCropNames"
         },
+        "data": "brapi:data",
         "leadPersonDbIds": {
             "@container": "@list",
-            "@id": "brapi:leadPersonDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:leadPersonDbIds"
         },
         "leadPersonNames": {
             "@container": "@list",
-            "@id": "brapi:leadPersonNames",
-            "@type": "xsd:string"
+            "@id": "brapi:leadPersonNames"
         },
+        "metadata": "brapi:metadata",
         "objectives": {
             "@container": "@list",
-            "@id": "brapi:objectives",
-            "@type": "xsd:string"
-        },
-        "page": {
-            "@id": "brapi:page",
-            "@type": "xsd:integer"
-        },
-        "pageSize": {
-            "@id": "brapi:pageSize",
-            "@type": "xsd:integer"
+            "@id": "brapi:objectives"
         },
         "programDbIds": {
             "@container": "@list",
-            "@id": "brapi:programDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:programDbIds"
         },
         "programNames": {
             "@container": "@list",
-            "@id": "brapi:programNames",
-            "@type": "xsd:string"
+            "@id": "brapi:programNames"
         },
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

@@ -1,11 +1,11 @@
 {
     "@context": {
         "@version": 1.1,
-        "brapi": "https://brapi.org/jsonld.html#",
+        "additionalInfo": "brapi:additionalInfo",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "data": {
             "@container": "@list",
-            "@id": "brapi:data",
-            "@type": "xsd:string"
+            "@id": "brapi:data"
         },
         "description": "brapi:description",
         "listName": "brapi:listName",
@@ -20,6 +20,8 @@
             "@id": "brapi:listType",
             "@type": "brapi:listTypes"
         },
+        "metadata": "brapi:metadata",
+        "result": "brapi:result",
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }
 }

@@ -3,47 +3,47 @@
         "@version": 1.1,
         "accessionNumbers": {
             "@container": "@list",
-            "@id": "brapi:accessionNumbers",
-            "@type": "xsd:string"
+            "@id": "brapi:accessionNumbers"
         },
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "commonCropNames": {
             "@container": "@list",
-            "@id": "brapi:commonCropNames",
-            "@type": "xsd:string"
+            "@id": "brapi:commonCropNames"
         },
+        "data": "brapi:data",
         "germplasmDbIds": {
             "@container": "@list",
-            "@id": "brapi:germplasmDbIds",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmDbIds"
         },
         "germplasmGenus": {
             "@container": "@list",
-            "@id": "brapi:germplasmGenus",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmGenus"
         },
         "germplasmNames": {
             "@container": "@list",
-            "@id": "brapi:germplasmNames",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmNames"
         },
         "germplasmPUIs": {
             "@container": "@list",
-            "@id": "brapi:germplasmPUIs",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmPUIs"
         },
         "germplasmSpecies": {
             "@container": "@list",
-            "@id": "brapi:germplasmSpecies",
-            "@type": "xsd:string"
+            "@id": "brapi:germplasmSpecies"
         },
-        "page": {
-            "@id": "brapi:page",
-            "@type": "xsd:integer"
+        "metadata": "brapi:metadata",
+        "parentDbIds": {
+            "@container": "@list",
+            "@id": "brapi:parentDbIds"
         },
-        "pageSize": {
-            "@id": "brapi:pageSize",
-            "@type": "xsd:integer"
+        "progenyDbIds": {
+            "@container": "@list",
+            "@id": "brapi:progenyDbIds"
+        },
+        "result": "brapi:result",
+        "studyDbIds": {
+            "@container": "@list",
+            "@id": "brapi:studyDbIds"
         },
         "xsd": "http://www.w3.org/2001/XMLSchema#"
     }

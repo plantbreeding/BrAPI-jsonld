@@ -1,5 +1,8 @@
 #! /usr/bin/env python
 
+# run locally with this:
+# ./buildJSONLDContexts.py ./ ../API/Specification/BrAPI-Core/brapi_openapi.yaml ../API/Specification/BrAPI-Phenotyping/brapi_openapi.yaml ../API/Specification/BrAPI-Genotyping/brapi_openapi.yaml ../API/Specification/BrAPI-Germplasm/brapi_openapi.yaml
+
 import yaml
 import sys
 import json
@@ -8,27 +11,24 @@ from fileinput import filename
 dataDictionary = {}
 
 
-def findId(term, termSchema):
-	id = term
-	
-	return "brapi:" + id
-
 def findType(term, termSchema):
 	type = "xsd:string"
-	isArr = False
 	if 'type' in termSchema:
-		if 'array' == termSchema['type'] and 'items' in termSchema:
-			isArr = True
-			if 'type' in termSchema['items']:
-				type = "xsd:" + termSchema['items']['type']
-			elif '$ref' in termSchema['items']:
-				type = "brapi:" + termSchema['items']['$ref'].split('/')[-1]
-		else:
-			type = "xsd:" + termSchema['type']
+		type = "xsd:" + termSchema['type']
 	elif '$ref' in termSchema:
 		type = "brapi:" + termSchema['$ref'].split('/')[-1]
 	
-	return [type, isArr]
+	return type
+
+def isObject(termSchema):
+	return ('type' in termSchema and termSchema['type'] == 'object') or ('properties' in termSchema)
+
+def isArray(termSchema):
+	return ('type' in termSchema and termSchema['type'] == 'array' and 'items' in termSchema)
+
+def isString(termSchema):
+	return ('type' in termSchema and termSchema['type'] == 'string')
+
 
 def addTermToDataDictionary(schemaName, term, termSchema):
 	description = 'DEFINITION MISSING'
@@ -58,42 +58,58 @@ def buildDataDictionary(rootPath):
 		outfile.write(defsPageStr)
 	
 def buildContext(schemaName, schemaObj):
-	contextObj = {}
 	contextObj = {
 		"@context": {
 			"@version": 1.1,
-			"brapi": "https://brapi.org/jsonld.html#",
-			"xsd": "http://www.w3.org/2001/XMLSchema#"		
+			"brapi": "https://brapi.org/jsonld/jsonld.html#",
+			"xsd": "http://www.w3.org/2001/XMLSchema#",
+			"metadata":"brapi:metadata",
+			"result": "brapi:result",
+			"data": "brapi:data"
 		} 
 	}
+	
+	terms = recurseThroughAllProperties(schemaName, schemaObj)
+	contextObj['@context'].update(terms)
+	return contextObj
+
+def recurseThroughAllProperties(schemaName, schemaObj):
+	contextObj = {}
 	if 'properties' in schemaObj:
 		for term in schemaObj['properties']:
-			addTermToDataDictionary(schemaName, term, schemaObj['properties'][term])
+			termObj = schemaObj['properties'][term]
+			addTermToDataDictionary(schemaName, term, termObj)
+			id = "brapi:" + term
 			
-			id = findId(term, schemaObj['properties'][term])
-			type = findType(term, schemaObj['properties'][term])
-			
-			if(type[0] == 'xsd:string') and not type[1]:
-				contextObj["@context"][term] = id
-			else:
-				contextObj["@context"][term] = {
+			if isObject(termObj):
+				contextObj.update(recurseThroughAllProperties(term, termObj))
+				contextObj[term] = id
+			elif isArray(termObj):
+				if isObject(termObj['items']):
+					contextObj.update(recurseThroughAllProperties(term, termObj['items']))
+				contextObj[term] = {
 					"@id": id,
-					"@type": type[0] 
+					"@container" : "@list"
 				}
-				if type[1]:
-					contextObj["@context"][term]['@container'] = '@list'
+			elif isString(termObj):
+				contextObj[term] = id
+			else:
+				contextObj[term] = {
+					"@id": id,
+					"@type": findType(term, termObj)
+				}
 
 	return contextObj
-	
 
-def buildContexts(rootPath):
-	filePath = rootPath + '/brapi_openapi.yaml'
-	fileObj = {}
-	with open(filePath, "r") as stream:
-		try:
-			fileObj = yaml.load(stream)
-		except yaml.YAMLError as exc:
-			print(exc)
+def buildContexts(rootPath, inputArr):
+	fileObj = {'components':{'schemas':{}}}
+	for filePath in inputArr:
+		with open(filePath, "r") as stream:
+			try:
+				yamlObj = yaml.load(stream)
+				fileObj['components']['schemas'].update(yamlObj['components']['schemas'])
+			except yaml.YAMLError as exc:
+				print(exc)
 	
 	if 'components' in fileObj:
 		if 'schemas' in fileObj['components']:
@@ -111,11 +127,14 @@ def loadTemplateFile(rootPath, fileName):
 	return template
 
 rootPath = '.'
+inputArr = []
 
 if len(sys.argv) > 1 :
-	rootPath = sys.argv[1];
+	rootPath = sys.argv[1]
+if len(sys.argv) > 2 :
+	inputArr = sys.argv[2:]
 
-buildContexts(rootPath)
+buildContexts(rootPath, inputArr)
 
 pageHTMLTemplate = loadTemplateFile(rootPath, 'page-template.html')
 termHTMLTemplate = loadTemplateFile(rootPath, 'term-template.html')

@@ -3,52 +3,66 @@
         "@version": 1.1,
         "accessionNames": {
             "@container": "@list",
-            "@id": "brapi:accessionNames",
-            "@type": "xsd:string"
+            "@id": "brapi:accessionNames"
         },
         "accessionNumber": "brapi:accessionNumber",
         "acquisitionDate": "brapi:acquisitionDate",
         "acquisitionSourceCode": "brapi:acquisitionSourceCode",
         "alternateIDs": {
             "@container": "@list",
-            "@id": "brapi:alternateIDs",
-            "@type": "xsd:string"
+            "@id": "brapi:alternateIDs"
         },
         "ancestralData": "brapi:ancestralData",
         "biologicalStatusOfAccessionCode": "brapi:biologicalStatusOfAccessionCode",
-        "brapi": "https://brapi.org/jsonld.html#",
+        "brapi": "https://brapi.org/jsonld/jsonld.html#",
         "breedingInstitutes": {
             "@container": "@list",
-            "@id": "brapi:breedingInstitutes",
-            "@type": "xsd:object"
+            "@id": "brapi:breedingInstitutes"
         },
-        "collectingInfo": {
-            "@id": "brapi:collectingInfo",
-            "@type": "xsd:object"
+        "collectingDate": "brapi:collectingDate",
+        "collectingInfo": "brapi:collectingInfo",
+        "collectingInstitutes": {
+            "@container": "@list",
+            "@id": "brapi:collectingInstitutes"
         },
+        "collectingMissionIdentifier": "brapi:collectingMissionIdentifier",
+        "collectingNumber": "brapi:collectingNumber",
+        "collectingSite": "brapi:collectingSite",
         "commonCropName": "brapi:commonCropName",
+        "coordinateUncertainty": "brapi:coordinateUncertainty",
         "countryOfOrigin": "brapi:countryOfOrigin",
-        "donorInfo": {
-            "@id": "brapi:donorInfo",
-            "@type": "xsd:object"
-        },
+        "data": "brapi:data",
+        "donorAccessionNumber": "brapi:donorAccessionNumber",
+        "donorAccessionPui": "brapi:donorAccessionPui",
+        "donorInfo": "brapi:donorInfo",
+        "donorInstitute": "brapi:donorInstitute",
+        "elevation": "brapi:elevation",
         "genus": "brapi:genus",
+        "georeferencingMethod": "brapi:georeferencingMethod",
         "germplasmDbId": "brapi:germplasmDbId",
         "germplasmPUI": "brapi:germplasmPUI",
+        "instituteAddress": "brapi:instituteAddress",
         "instituteCode": "brapi:instituteCode",
+        "instituteName": "brapi:instituteName",
+        "latitudeDecimal": "brapi:latitudeDecimal",
+        "latitudeDegrees": "brapi:latitudeDegrees",
+        "locationDescription": "brapi:locationDescription",
+        "longitudeDecimal": "brapi:longitudeDecimal",
+        "longitudeDegrees": "brapi:longitudeDegrees",
+        "metadata": "brapi:metadata",
         "mlsStatus": "brapi:mlsStatus",
         "remarks": "brapi:remarks",
+        "result": "brapi:result",
         "safetyDuplicateInstitues": {
             "@container": "@list",
-            "@id": "brapi:safetyDuplicateInstitues",
-            "@type": "xsd:object"
+            "@id": "brapi:safetyDuplicateInstitues"
         },
+        "spatialReferenceSystem": "brapi:spatialReferenceSystem",
         "species": "brapi:species",
         "speciesAuthority": "brapi:speciesAuthority",
         "storageTypeCodes": {
             "@container": "@list",
-            "@id": "brapi:storageTypeCodes",
-            "@type": "xsd:string"
+            "@id": "brapi:storageTypeCodes"
         },
         "subtaxon": "brapi:subtaxon",
         "subtaxonAuthority": "brapi:subtaxonAuthority",
